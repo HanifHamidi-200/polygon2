@@ -1,8 +1,55 @@
 <html>
     <head>
         <title>OwnWebsite - Hanif Hamidi</title>
+        <style>
+                body {
+                    background-color: lightblue;
+                    color: darkblue;
+                }
+                
+                h1 {
+                    color: white;
+                    font-size: 48;
+                    text-align: center;
+                }
+                
+                h2 {
+                    color: white;
+                    font-size: 38;
+                    text-align: center;
+                }
+               
+                </style>
+         <script>
+                function validateForm() {
+                    var x = document.forms["myForm"]["fname"].value;
+                    if (x == "") {
+                        alert("Name must be filled out");
+                        return false;
+                    }
+                }
+                </script>
+                
     </head>
     <body>
+        <p>Title = OwnWebsite</p>
+        <p>Author = Hanif Hamidi</p>
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+
+        <p id="demo"></p>
+
+        <form name="myForm" action="/action_page.php"
+        onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        <input type="button" value="Frank">
+        <input type="button" value="Pluto">
+        <input type="button" value="Accounts">
+        <input type="submit" value="Submit">
+        </form>
+
+        <h1>MAIN</h1>
         <p>As Efficiencies willhave it, the stimulus to design the PerfectEngine</p>
         <p>Will undergo many divisions in ItsToll</p>
         <p>Beseeching out the FarReaches of the Market</p>

@@ -2,12 +2,73 @@
 <html>
     <head>
         <title>OwnWebsiteHelpfile</title>
+        <style>
+                body {
+                    background-color: lightblue;
+                    color: darkblue;
+                }
+                
+                h1 {
+                    color: white;
+                    font-size: 48;
+                    text-align: center;
+                }
+                
+                h2 {
+                    color: white;
+                    font-size: 38;
+                    text-align: center;
+                }
+               
+                </style>
+         <script>
+        function validateForm() {
+            var x = document.forms["myForm"]["fname"].value;
+            if (x == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+        }
+        </script>
+                     
     </head>
     <body>
-        <img src="B_ClairevoyanceSystem\F BackgroundNoiseRelationship.png" alt=" BackgroundNoiseRelationship">
-        <img src="B_ClairevoyanceSystem\F BoardnowSituation.png" alt="F BoardnowSituation">
-        <img src="B_ClairevoyanceSystem\F ClairevoyanceSystem_WeaponsTech.png" alt="F ClairevoyanceSystem_WeaponsTech">
-        <img src="B_ClairevoyanceSystem\F Excel_SwayWhiteboard.png" alt="F Excel_SwayWhiteboard">
-   
+        <p>Title = OwnWebsiteHelpfile</p>
+        <p>Author = Hanif Hamidi</p>
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+
+        <p id="demo"></p>
+        
+        <form name="myForm" action="/action_page.php"
+        onsubmit="return validateForm()" method="POST">
+        Name: <input type="text" name="fname" value="123">
+        <input type="button" value="Frank">
+        <input type="button" value="Pluto">
+        <input type="button" value="Accounts">
+        <input type="submit" value="Submit">
+        </form>
+
+        <h1>ClairvoyanceSystem</h1>
+        <img src="B_ClairevoyanceSystem\F BackgroundNoiseRelationship.png" alt="F BackgroundNoiseRelationship" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F BoardnowSituation.png" alt="F BoardnowSituation" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F ClairevoyanceSystem_WeaponsTech.png" alt="F ClairevoyanceSystem_WeaponsTech" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F Excel_SwayWhiteboard.png" alt="F Excel_SwayWhiteboard" width="800" height="500">
+    
+        <img src="B_ClairevoyanceSystem\F NeededFiles.png" alt=" NeededFiles" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F PercentagesAttention.png" alt="F PercentagesAttention" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F RobotsCompany.png" alt="F RobotsCompany" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F SearsUpgrade.png" alt="F SearsUpgrade" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F StickedOut.png" alt="F StickedOut" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F TaskAthand.png" alt="F TaskAthand" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F TrioOfAbacus.png" alt="F TrioOfAbacus" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F UndisturbedNest.png" alt="F UndisturbedNest" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F UndisturbedNestPrognosis.png" alt=" UndisturbedNestPrognosis" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F WeaponsTechScenarioBoxes.png" alt="F WeaponsTechScenarioBoxes" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F WhichIExtensible.png" alt="F WhichIExtensible" width="800" height="500">
+        <img src="B_ClairevoyanceSystem\F Windows10Promises.png" alt="F Windows10Promises" width="800" height="500">
+     <h2>UndisturbedNest</h2>
+      
     </body>
 </html>
