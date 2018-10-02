@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LOCKE.exe" version="1.0.0.0" publicKeyToken="527968044181725c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F BoulderLogic.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LOCKE" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LOCKE.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LOCKE.exe" size="68064">
+      <assemblyIdentity name="LOCKE" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>A+eK12+EOak8Tauj1VRoLK51Ic5SDq6VoK9LYzgqLx8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="F BoulderLogic.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>piNGcUr+LugKtl1hhLr7MhOutSmtNlGPvsXiyAwpGUw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F col1.png" size="466">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5NiQWGYoAat+eYlZzPrQMeJSrQhF/qjH2DKjmmjKlGM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F col2.png" size="469">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1DSsZEzTBX3sVcLyJWgBxNPYdTbChEke8aoMzIRnJKk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F col3.png" size="470">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tVIoFwtkQ/Iza0wmmwRB/laj3uhlbjoMKSXWYlMZPkI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F col4.png" size="470">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XLLNyneZRxTrTpn32Ty9m2WNvqNELZOjpmMWZVezL7w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F crate.png" size="1817">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2zVpUJvo6Sn40d2h4f/reU5GWCBdso9SQOqArSOjAck=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F lock1.png" size="1632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lJXKQ/KAeANpPvhChejHHZWJcIzuvkU775EFRUKlErA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F lock2.png" size="1602">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2YzJUJaV4pt/R8SURj1L7X3JnHrLF0E52NsC4FzY/QE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F lock3.png" size="1613">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kgQuWQqk+3AosAEMmETrjSs/UWCdpBjQ8Igcf0fTtLY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F lock4.png" size="2030">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gFJG8hPR+ibjXYFFmWCf23wCnsazRCIo0IMWFva5nVw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Nullgate.png" size="3620">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cA9l58It3wj+4a4CNvBCFezyGH/bUTHfatyffdmj87c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LOCKE.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="da09b130a05c7f8405064e16aef48c052b015bdc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Ata4jdwCuXU3rdQbd4h+OHQ8+b9ebzfhbnSFglNc5Eg=</DigestValue></Reference></SignedInfo><SignatureValue>X5KpAvtnbTYJsnpf4w2ks8SyfMu4Mw9tXRfoUBXglEvCEldvtBLfL6Ce3UU0aUo/lZiB0V4Mc9n6wnjpt6zd5MF8z8P071EstIOXFQjZal5lu+sC5V92FGvgRcrxpTjD5NwVo6YuAcjey14PPHTiAAX1gFnRgLjnVEpS3iZOy3o=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pllqW67EzcFNLiMPFi5wFkBvbN8bXVCW8USmOlENdv69US51gO+wlGyLC3yD+NboQ3T6R8KTFWS/a0WpkRl3HZ5iyrzFrNWJ+8AkTl8kXEk4yFilOZdwEbw23R57do74PiYlVXLw4f5b1F6AN7TlS/bDCPepXa2z7geM9hYRY+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="48e45c538285746ee1376f5ebff93c74387e88771bd4ad3775b902dc8db8d602" Description="" Url=""><as:assemblyIdentity name="LOCKE.exe" version="1.0.0.0" publicKeyToken="527968044181725c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LbwynPBOTPkhMmN4MRZLaTrgA7IccUm+bk1OTXQSejc=</DigestValue></Reference></SignedInfo><SignatureValue>jeOwSQPWTYMeDsaKw36f6fT+Xgv3F2bhNMHd4o39CbdzPvNv0rKRLlo3tKUgBJkxBx997oRPD8n+h+A6HD8iuuWYGoVU0qmAWc3Fzk6tTrM1rA83LtmRJfYchCSmUBI+A3uEjgXmvYW9+4EROJTzhCRI60ZBvwTZUy3t42qpE4c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pllqW67EzcFNLiMPFi5wFkBvbN8bXVCW8USmOlENdv69US51gO+wlGyLC3yD+NboQ3T6R8KTFWS/a0WpkRl3HZ5iyrzFrNWJ+8AkTl8kXEk4yFilOZdwEbw23R57do74PiYlVXLw4f5b1F6AN7TlS/bDCPepXa2z7geM9hYRY+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQU4NkNulKuY9F1kll6AEEyzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwOTEyMDYyNzUyWhcNMTkwOTEyMTIyNzUyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKZZaluuxM3BTS4jDxYucBZAb2zfG11QlvFEpjpRDXb+vVEudYDvsJRsiwt8g/jW6EN0+kfCkxVkv2tFqZEZdx2eYsq8xazVifvAJE5fJFxJOMhYpTmXcBG8Nt0ee3aO+D4mJVVy8OH+W9RegDe05Uv2wwj3qV2ts+4HjPYWEWPlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAnq/YI1pa7bBm2Qb+Khq+1FxdQUsAbcR4LvDFotvso77mK07VTYtcNA9PpDC79uwPagRHUsFxxkewEff71ZcG2rnI5xP0H2FtBT4AdaAaLopecsIiTwB3FiaWXgjQJqvFv54rMJiQGO9mV1uRpedmmmkAttRAql8MjUzeVYppo/c=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

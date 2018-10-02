@@ -1,0 +1,16 @@
+C:\Users\hanif\source\repos\SEEDE\SEEDE\bin\Debug\SEEDE.exe.config
+C:\Users\hanif\source\repos\SEEDE\SEEDE\bin\Debug\SEEDE.exe.manifest
+C:\Users\hanif\source\repos\SEEDE\SEEDE\bin\Debug\SEEDE.application
+C:\Users\hanif\source\repos\SEEDE\SEEDE\bin\Debug\SEEDE.exe
+C:\Users\hanif\source\repos\SEEDE\SEEDE\bin\Debug\SEEDE.pdb
+C:\Users\hanif\source\repos\SEEDE\SEEDE\obj\Debug\SEEDE.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\SEEDE\SEEDE\obj\Debug\SEEDE.Form1.resources
+C:\Users\hanif\source\repos\SEEDE\SEEDE\obj\Debug\SEEDE.fSub1.resources
+C:\Users\hanif\source\repos\SEEDE\SEEDE\obj\Debug\SEEDE.fSub2.resources
+C:\Users\hanif\source\repos\SEEDE\SEEDE\obj\Debug\SEEDE.Properties.Resources.resources
+C:\Users\hanif\source\repos\SEEDE\SEEDE\obj\Debug\SEEDE.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\SEEDE\SEEDE\obj\Debug\SEEDE.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\SEEDE\SEEDE\obj\Debug\SEEDE.exe.manifest
+C:\Users\hanif\source\repos\SEEDE\SEEDE\obj\Debug\SEEDE.application
+C:\Users\hanif\source\repos\SEEDE\SEEDE\obj\Debug\SEEDE.exe
+C:\Users\hanif\source\repos\SEEDE\SEEDE\obj\Debug\SEEDE.pdb

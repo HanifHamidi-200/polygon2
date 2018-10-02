@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\INTENT\INTENT\bin\Debug\INTENT.exe.config
+C:\Users\hanif\source\repos\INTENT\INTENT\bin\Debug\INTENT.exe.manifest
+C:\Users\hanif\source\repos\INTENT\INTENT\bin\Debug\INTENT.application
+C:\Users\hanif\source\repos\INTENT\INTENT\bin\Debug\INTENT.exe
+C:\Users\hanif\source\repos\INTENT\INTENT\bin\Debug\INTENT.pdb
+C:\Users\hanif\source\repos\INTENT\INTENT\obj\Debug\INTENT.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\INTENT\INTENT\obj\Debug\INTENT.Form1.resources
+C:\Users\hanif\source\repos\INTENT\INTENT\obj\Debug\INTENT.Properties.Resources.resources
+C:\Users\hanif\source\repos\INTENT\INTENT\obj\Debug\INTENT.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\INTENT\INTENT\obj\Debug\INTENT.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\INTENT\INTENT\obj\Debug\INTENT.exe.manifest
+C:\Users\hanif\source\repos\INTENT\INTENT\obj\Debug\INTENT.application
+C:\Users\hanif\source\repos\INTENT\INTENT\obj\Debug\INTENT.exe
+C:\Users\hanif\source\repos\INTENT\INTENT\obj\Debug\INTENT.pdb

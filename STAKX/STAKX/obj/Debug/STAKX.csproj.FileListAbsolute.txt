@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\STAKX\STAKX\bin\Debug\STAKX.exe.config
+C:\Users\hanif\source\repos\STAKX\STAKX\bin\Debug\STAKX.exe.manifest
+C:\Users\hanif\source\repos\STAKX\STAKX\bin\Debug\STAKX.application
+C:\Users\hanif\source\repos\STAKX\STAKX\bin\Debug\STAKX.exe
+C:\Users\hanif\source\repos\STAKX\STAKX\bin\Debug\STAKX.pdb
+C:\Users\hanif\source\repos\STAKX\STAKX\obj\Debug\STAKX.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\STAKX\STAKX\obj\Debug\STAKX.Form1.resources
+C:\Users\hanif\source\repos\STAKX\STAKX\obj\Debug\STAKX.Properties.Resources.resources
+C:\Users\hanif\source\repos\STAKX\STAKX\obj\Debug\STAKX.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\STAKX\STAKX\obj\Debug\STAKX.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\STAKX\STAKX\obj\Debug\STAKX.exe.manifest
+C:\Users\hanif\source\repos\STAKX\STAKX\obj\Debug\STAKX.application
+C:\Users\hanif\source\repos\STAKX\STAKX\obj\Debug\STAKX.exe
+C:\Users\hanif\source\repos\STAKX\STAKX\obj\Debug\STAKX.pdb

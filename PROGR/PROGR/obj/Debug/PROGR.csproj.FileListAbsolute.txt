@@ -1,0 +1,15 @@
+C:\Users\hanif\source\repos\PROGR\PROGR\bin\Debug\PROGR.exe.config
+C:\Users\hanif\source\repos\PROGR\PROGR\bin\Debug\PROGR.exe
+C:\Users\hanif\source\repos\PROGR\PROGR\bin\Debug\PROGR.pdb
+C:\Users\hanif\source\repos\PROGR\PROGR\obj\Debug\PROGR.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\PROGR\PROGR\obj\Debug\PROGR.Form1.resources
+C:\Users\hanif\source\repos\PROGR\PROGR\obj\Debug\PROGR.Properties.Resources.resources
+C:\Users\hanif\source\repos\PROGR\PROGR\obj\Debug\PROGR.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\PROGR\PROGR\obj\Debug\PROGR.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\PROGR\PROGR\obj\Debug\PROGR.exe
+C:\Users\hanif\source\repos\PROGR\PROGR\obj\Debug\PROGR.pdb
+C:\Users\hanif\source\repos\PROGR\PROGR\bin\Debug\PROGR.exe.manifest
+C:\Users\hanif\source\repos\PROGR\PROGR\bin\Debug\PROGR.application
+C:\Users\hanif\source\repos\PROGR\PROGR\obj\Debug\PROGR.exe.manifest
+C:\Users\hanif\source\repos\PROGR\PROGR\obj\Debug\PROGR.application
+C:\Users\hanif\source\repos\PROGR\PROGR\obj\Debug\PROGR.fSub1.resources

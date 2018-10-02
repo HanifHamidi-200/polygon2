@@ -1,0 +1,15 @@
+C:\Users\hanif\source\repos\COMPY\COMPY\bin\Debug\COMPY.exe.config
+C:\Users\hanif\source\repos\COMPY\COMPY\bin\Debug\COMPY.exe.manifest
+C:\Users\hanif\source\repos\COMPY\COMPY\bin\Debug\COMPY.application
+C:\Users\hanif\source\repos\COMPY\COMPY\bin\Debug\COMPY.exe
+C:\Users\hanif\source\repos\COMPY\COMPY\bin\Debug\COMPY.pdb
+C:\Users\hanif\source\repos\COMPY\COMPY\obj\Debug\COMPY.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\COMPY\COMPY\obj\Debug\COMPY.Form1.resources
+C:\Users\hanif\source\repos\COMPY\COMPY\obj\Debug\COMPY.fSub1.resources
+C:\Users\hanif\source\repos\COMPY\COMPY\obj\Debug\COMPY.Properties.Resources.resources
+C:\Users\hanif\source\repos\COMPY\COMPY\obj\Debug\COMPY.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\COMPY\COMPY\obj\Debug\COMPY.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\COMPY\COMPY\obj\Debug\COMPY.exe.manifest
+C:\Users\hanif\source\repos\COMPY\COMPY\obj\Debug\COMPY.application
+C:\Users\hanif\source\repos\COMPY\COMPY\obj\Debug\COMPY.exe
+C:\Users\hanif\source\repos\COMPY\COMPY\obj\Debug\COMPY.pdb

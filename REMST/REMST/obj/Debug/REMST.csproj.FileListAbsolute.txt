@@ -1,0 +1,17 @@
+C:\Users\hanif\source\repos\REMST\REMST\bin\Debug\REMST.exe.config
+C:\Users\hanif\source\repos\REMST\REMST\bin\Debug\REMST.exe
+C:\Users\hanif\source\repos\REMST\REMST\bin\Debug\REMST.pdb
+C:\Users\hanif\source\repos\REMST\REMST\obj\Debug\REMST.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\REMST\REMST\obj\Debug\REMST.Form1.resources
+C:\Users\hanif\source\repos\REMST\REMST\obj\Debug\REMST.fSub1.resources
+C:\Users\hanif\source\repos\REMST\REMST\obj\Debug\REMST.fSub2.resources
+C:\Users\hanif\source\repos\REMST\REMST\obj\Debug\REMST.fSub3.resources
+C:\Users\hanif\source\repos\REMST\REMST\obj\Debug\REMST.Properties.Resources.resources
+C:\Users\hanif\source\repos\REMST\REMST\obj\Debug\REMST.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\REMST\REMST\obj\Debug\REMST.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\REMST\REMST\obj\Debug\REMST.exe
+C:\Users\hanif\source\repos\REMST\REMST\obj\Debug\REMST.pdb
+C:\Users\hanif\source\repos\REMST\REMST\bin\Debug\REMST.exe.manifest
+C:\Users\hanif\source\repos\REMST\REMST\bin\Debug\REMST.application
+C:\Users\hanif\source\repos\REMST\REMST\obj\Debug\REMST.exe.manifest
+C:\Users\hanif\source\repos\REMST\REMST\obj\Debug\REMST.application

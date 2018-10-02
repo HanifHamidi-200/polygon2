@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\GORND\GORND\bin\Debug\GORND.exe.config
+C:\Users\hanif\source\repos\GORND\GORND\bin\Debug\GORND.exe.manifest
+C:\Users\hanif\source\repos\GORND\GORND\bin\Debug\GORND.application
+C:\Users\hanif\source\repos\GORND\GORND\bin\Debug\GORND.exe
+C:\Users\hanif\source\repos\GORND\GORND\bin\Debug\GORND.pdb
+C:\Users\hanif\source\repos\GORND\GORND\obj\Debug\GORND.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\GORND\GORND\obj\Debug\GORND.Form1.resources
+C:\Users\hanif\source\repos\GORND\GORND\obj\Debug\GORND.Properties.Resources.resources
+C:\Users\hanif\source\repos\GORND\GORND\obj\Debug\GORND.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\GORND\GORND\obj\Debug\GORND.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\GORND\GORND\obj\Debug\GORND.exe.manifest
+C:\Users\hanif\source\repos\GORND\GORND\obj\Debug\GORND.application
+C:\Users\hanif\source\repos\GORND\GORND\obj\Debug\GORND.exe
+C:\Users\hanif\source\repos\GORND\GORND\obj\Debug\GORND.pdb

@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\bin\Debug\UltimaTHULE.exe.config
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\bin\Debug\UltimaTHULE.exe.manifest
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\bin\Debug\UltimaTHULE.application
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\bin\Debug\UltimaTHULE.exe
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\bin\Debug\UltimaTHULE.pdb
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\obj\Debug\UltimaTHULE.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\obj\Debug\UltimaTHULE.Form1.resources
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\obj\Debug\UltimaTHULE.Properties.Resources.resources
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\obj\Debug\UltimaTHULE.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\obj\Debug\UltimaTHULE.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\obj\Debug\UltimaTHULE.exe.manifest
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\obj\Debug\UltimaTHULE.application
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\obj\Debug\UltimaTHULE.exe
+C:\Users\hanif\source\repos\UltimaTHULE\UltimaTHULE\obj\Debug\UltimaTHULE.pdb

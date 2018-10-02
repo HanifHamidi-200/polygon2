@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TANKS.exe" version="1.0.0.0" publicKeyToken="a2492b5a99497733" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F setsquare.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TANKS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TANKS.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TANKS.exe" size="30688">
+      <assemblyIdentity name="TANKS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R5zNl3D6qWMD0EUdBTmgHWDvDuuxtvH//PKSlCPEoUQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="F setsquare.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sOh28dQre8NqRjUaypVHgQUn1+qalRx2FT89GsUmU2E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TANKS.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="7e995d6326c10c5d2ea7863a3dd8a0e6fd57deb0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4YsnsNUVjCwD5CmlsES8KqBBpWxejmR2fnzSLg7v0/c=</DigestValue></Reference></SignedInfo><SignatureValue>a8pRUW/mjLqQQbC0vyi0XvQtnDkCu3K9hcPYis4aF92RCmyW3xqIkSQFJwTc8CWTwtSzjJ5llGtJP0clovV9scJmxQxcVl9JOh5sy1R1hX6I7dz9ew3Rqe9Ww9Sa7MzzzjcEtTUb+uI6yDHVQJLvVvdNjVQL9SrL1ueE/TOimiM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mz3mssWcyhvpBPshT6WBrMFeW0B091EkGMn9B4P9/0NjHFrKp3dpu7CHcRW8E69RHeuSObSfT5ZpGvyfzlmNM2OuQQh765a/DwQIEW9rFUukSHq01QXweqDPgtT2Jmd/8qdi3/b2w8Zl947xcuQTPJYPFXMY9nsIkQ9vDRapYkk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f7d3ef0e2ed27c7e76648e5e6ca541a02abc44b0a529e4032c8c15d5b0278be1" Description="" Url=""><as:assemblyIdentity name="TANKS.exe" version="1.0.0.0" publicKeyToken="a2492b5a99497733" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gyYhO4Calwb91QtxYz5mR9DjwS37j5gheS901VY18ks=</DigestValue></Reference></SignedInfo><SignatureValue>Aw03KPE3mztnisjdy2rQuJS2rgKGw1G5lVBllfZJ2IulVP7V+vD/4Wqxv9XcYJox556bWS78G+uWPFMhv/4+c/D7emB1dnXrVkLrq8kdT6LgvP6M03nEt2j4hw6kLBnV7kFnaxlVnuOahQ+VnNbfMMlNs25dBeFYylW5x1BTdbI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mz3mssWcyhvpBPshT6WBrMFeW0B091EkGMn9B4P9/0NjHFrKp3dpu7CHcRW8E69RHeuSObSfT5ZpGvyfzlmNM2OuQQh765a/DwQIEW9rFUukSHq01QXweqDPgtT2Jmd/8qdi3/b2w8Zl947xcuQTPJYPFXMY9nsIkQ9vDRapYkk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQF52IZ4TXE6ROqm0mS4tUrzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwOTEyMDg1NjMxWhcNMTkwOTEyMTQ1NjMxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJs95rLFnMob6QT7IU+lgazBXltAdPdRJBjJ/QeD/f9DYxxayqd3abuwh3EVvBOvUR3rkjm0n0+WaRr8n85ZjTNjrkEIe+uWvw8ECBFvaxVLpEh6tNUF8Hqgz4LU9iZnf/KnYt/29sPGZfeO8XLkEzyWDxVzGPZ7CJEPbw0WqWJJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAXVQikCR4WgvGKyL9PesAb8WYD6B75/0x0WH5mst7a6p13JrS14Zys2gKt56VqdENuQtRulq39kMBOol19FSWvfDAd0cb9pQZoUQC/TD/qkrLY5MW83LuwFNW0qa3tapDMQUR+CMTOiLeNTlLEUCFR0n1L7diExwNaMGpj2QG+PQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

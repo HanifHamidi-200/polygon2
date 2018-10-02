@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\DIFFST\DIFFST\bin\Debug\DIFFST.exe.config
+C:\Users\hanif\source\repos\DIFFST\DIFFST\bin\Debug\DIFFST.exe.manifest
+C:\Users\hanif\source\repos\DIFFST\DIFFST\bin\Debug\DIFFST.application
+C:\Users\hanif\source\repos\DIFFST\DIFFST\bin\Debug\DIFFST.exe
+C:\Users\hanif\source\repos\DIFFST\DIFFST\bin\Debug\DIFFST.pdb
+C:\Users\hanif\source\repos\DIFFST\DIFFST\obj\Debug\DIFFST.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\DIFFST\DIFFST\obj\Debug\DIFFST.Form1.resources
+C:\Users\hanif\source\repos\DIFFST\DIFFST\obj\Debug\DIFFST.Properties.Resources.resources
+C:\Users\hanif\source\repos\DIFFST\DIFFST\obj\Debug\DIFFST.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\DIFFST\DIFFST\obj\Debug\DIFFST.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\DIFFST\DIFFST\obj\Debug\DIFFST.exe.manifest
+C:\Users\hanif\source\repos\DIFFST\DIFFST\obj\Debug\DIFFST.application
+C:\Users\hanif\source\repos\DIFFST\DIFFST\obj\Debug\DIFFST.exe
+C:\Users\hanif\source\repos\DIFFST\DIFFST\obj\Debug\DIFFST.pdb

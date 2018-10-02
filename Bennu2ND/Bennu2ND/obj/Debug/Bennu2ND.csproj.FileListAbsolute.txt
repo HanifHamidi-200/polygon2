@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\bin\Debug\Bennu2ND.exe.config
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\bin\Debug\Bennu2ND.exe.manifest
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\bin\Debug\Bennu2ND.application
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\bin\Debug\Bennu2ND.exe
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\bin\Debug\Bennu2ND.pdb
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\obj\Debug\Bennu2ND.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\obj\Debug\Bennu2ND.Form1.resources
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\obj\Debug\Bennu2ND.Properties.Resources.resources
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\obj\Debug\Bennu2ND.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\obj\Debug\Bennu2ND.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\obj\Debug\Bennu2ND.exe.manifest
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\obj\Debug\Bennu2ND.application
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\obj\Debug\Bennu2ND.exe
+C:\Users\hanif\source\repos\Bennu2ND\Bennu2ND\obj\Debug\Bennu2ND.pdb

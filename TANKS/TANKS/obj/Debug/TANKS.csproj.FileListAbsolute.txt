@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\TANKS\TANKS\bin\Debug\TANKS.exe.config
+C:\Users\hanif\source\repos\TANKS\TANKS\bin\Debug\TANKS.exe
+C:\Users\hanif\source\repos\TANKS\TANKS\bin\Debug\TANKS.pdb
+C:\Users\hanif\source\repos\TANKS\TANKS\obj\Debug\TANKS.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\TANKS\TANKS\obj\Debug\TANKS.Form1.resources
+C:\Users\hanif\source\repos\TANKS\TANKS\obj\Debug\TANKS.Properties.Resources.resources
+C:\Users\hanif\source\repos\TANKS\TANKS\obj\Debug\TANKS.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\TANKS\TANKS\obj\Debug\TANKS.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\TANKS\TANKS\obj\Debug\TANKS.exe
+C:\Users\hanif\source\repos\TANKS\TANKS\obj\Debug\TANKS.pdb
+C:\Users\hanif\source\repos\TANKS\TANKS\bin\Debug\TANKS.exe.manifest
+C:\Users\hanif\source\repos\TANKS\TANKS\bin\Debug\TANKS.application
+C:\Users\hanif\source\repos\TANKS\TANKS\obj\Debug\TANKS.exe.manifest
+C:\Users\hanif\source\repos\TANKS\TANKS\obj\Debug\TANKS.application

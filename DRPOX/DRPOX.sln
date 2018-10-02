@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRPOX", "DRPOX\DRPOX.csproj", "{D0A0A2D9-20AC-423E-95E8-7FCBAEAE4C25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0A0A2D9-20AC-423E-95E8-7FCBAEAE4C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A0A2D9-20AC-423E-95E8-7FCBAEAE4C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A0A2D9-20AC-423E-95E8-7FCBAEAE4C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A0A2D9-20AC-423E-95E8-7FCBAEAE4C25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA952383-EDE0-4011-8A91-7E9C008DC453}
+	EndGlobalSection
+EndGlobal
