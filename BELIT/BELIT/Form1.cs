@@ -72,5 +72,31 @@ namespace BELIT
             _dlg.ShowDialog();
 
         }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn51_Click(object sender, EventArgs e)
+        {
+            fSub51 _dlg = new fSub51();
+            _dlg.ShowDialog();
+
+        }
+
+        private void btn52_Click(object sender, EventArgs e)
+        {
+            fSub52 _dlg = new fSub52();
+            _dlg.ShowDialog();
+
+        }
+
+        private void btn53_Click(object sender, EventArgs e)
+        {
+            fSub53 _dlg = new fSub53();
+            _dlg.ShowDialog();
+
+        }
     }
 }

@@ -49,12 +49,16 @@
             this.btn42 = new System.Windows.Forms.Button();
             this.btn41 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.btn53 = new System.Windows.Forms.Button();
             this.btn52 = new System.Windows.Forms.Button();
             this.btn51 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -195,6 +199,8 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Lime;
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btn11);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.btn21);
@@ -209,7 +215,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(30, 22);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(745, 161);
+            this.groupBox1.Size = new System.Drawing.Size(745, 191);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "AndamanStreet";
@@ -217,15 +223,17 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Lime;
+            this.groupBox2.Controls.Add(this.label13);
+            this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.btn42);
             this.groupBox2.Controls.Add(this.btn41);
-            this.groupBox2.Location = new System.Drawing.Point(30, 199);
+            this.groupBox2.Location = new System.Drawing.Point(30, 231);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(745, 122);
+            this.groupBox2.Size = new System.Drawing.Size(745, 156);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "WondersStreet";
@@ -305,42 +313,32 @@
             this.groupBox3.Controls.Add(this.btn53);
             this.groupBox3.Controls.Add(this.btn52);
             this.groupBox3.Controls.Add(this.btn51);
-            this.groupBox3.Location = new System.Drawing.Point(30, 342);
+            this.groupBox3.Location = new System.Drawing.Point(30, 411);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(745, 173);
             this.groupBox3.TabIndex = 14;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "HylexStreet";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
-            // btn53
+            // textBox1
             // 
-            this.btn53.BackColor = System.Drawing.Color.Red;
-            this.btn53.Location = new System.Drawing.Point(29, 99);
-            this.btn53.Name = "btn53";
-            this.btn53.Size = new System.Drawing.Size(208, 34);
-            this.btn53.TabIndex = 5;
-            this.btn53.Text = "MongolianCopper";
-            this.btn53.UseVisualStyleBackColor = false;
+            this.textBox1.BackColor = System.Drawing.Color.Yellow;
+            this.textBox1.Location = new System.Drawing.Point(472, 141);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(241, 20);
+            this.textBox1.TabIndex = 14;
             // 
-            // btn52
+            // label11
             // 
-            this.btn52.BackColor = System.Drawing.Color.Red;
-            this.btn52.Location = new System.Drawing.Point(29, 59);
-            this.btn52.Name = "btn52";
-            this.btn52.Size = new System.Drawing.Size(208, 34);
-            this.btn52.TabIndex = 4;
-            this.btn52.Text = "RussianForests";
-            this.btn52.UseVisualStyleBackColor = false;
-            // 
-            // btn51
-            // 
-            this.btn51.BackColor = System.Drawing.Color.Red;
-            this.btn51.Location = new System.Drawing.Point(29, 19);
-            this.btn51.Name = "btn51";
-            this.btn51.Size = new System.Drawing.Size(208, 34);
-            this.btn51.TabIndex = 3;
-            this.btn51.Text = "MediterraneanFishing";
-            this.btn51.UseVisualStyleBackColor = false;
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Magenta;
+            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label11.Location = new System.Drawing.Point(470, 19);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(93, 15);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "PlagiarismMaterial";
             // 
             // listBox1
             // 
@@ -356,31 +354,87 @@
             this.listBox1.Size = new System.Drawing.Size(184, 95);
             this.listBox1.TabIndex = 6;
             // 
-            // label11
+            // btn53
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Magenta;
-            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label11.Location = new System.Drawing.Point(470, 19);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(93, 15);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "PlagiarismMaterial";
+            this.btn53.BackColor = System.Drawing.Color.Red;
+            this.btn53.Location = new System.Drawing.Point(29, 99);
+            this.btn53.Name = "btn53";
+            this.btn53.Size = new System.Drawing.Size(208, 34);
+            this.btn53.TabIndex = 5;
+            this.btn53.Text = "MongolianCopper";
+            this.btn53.UseVisualStyleBackColor = false;
+            this.btn53.Click += new System.EventHandler(this.btn53_Click);
             // 
-            // textBox1
+            // btn52
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Yellow;
-            this.textBox1.Location = new System.Drawing.Point(472, 141);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 20);
-            this.textBox1.TabIndex = 14;
+            this.btn52.BackColor = System.Drawing.Color.Red;
+            this.btn52.Location = new System.Drawing.Point(29, 59);
+            this.btn52.Name = "btn52";
+            this.btn52.Size = new System.Drawing.Size(208, 34);
+            this.btn52.TabIndex = 4;
+            this.btn52.Text = "RussianForests";
+            this.btn52.UseVisualStyleBackColor = false;
+            this.btn52.Click += new System.EventHandler(this.btn52_Click);
+            // 
+            // btn51
+            // 
+            this.btn51.BackColor = System.Drawing.Color.Red;
+            this.btn51.Location = new System.Drawing.Point(29, 19);
+            this.btn51.Name = "btn51";
+            this.btn51.Size = new System.Drawing.Size(208, 34);
+            this.btn51.TabIndex = 3;
+            this.btn51.Text = "MediterraneanFishing";
+            this.btn51.UseVisualStyleBackColor = false;
+            this.btn51.Click += new System.EventHandler(this.btn51_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Magenta;
+            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label12.Location = new System.Drawing.Point(497, 159);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(81, 15);
+            this.label12.TabIndex = 13;
+            this.label12.Text = "ChristmasCards";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.Location = new System.Drawing.Point(265, 148);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(208, 34);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "DessicatedCoconut";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Magenta;
+            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label13.Location = new System.Drawing.Point(268, 110);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(108, 15);
+            this.label13.TabIndex = 16;
+            this.label13.Text = "construction supplies";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.Location = new System.Drawing.Point(29, 99);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(208, 34);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "VaM";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(866, 547);
+            this.ClientSize = new System.Drawing.Size(866, 630);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -425,6 +479,10 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button button2;
     }
 }
 
