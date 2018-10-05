@@ -98,5 +98,31 @@ namespace BELIT
             _dlg.ShowDialog();
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn43_Click(object sender, EventArgs e)
+        {
+            fSub43 _dlg = new fSub43();
+            _dlg.ShowDialog();
+
+        }
+
+        private void btn44_Click(object sender, EventArgs e)
+        {
+            fSub44 _dlg = new fSub44();
+            _dlg.ShowDialog();
+
+        }
+
+        private void btn45_Click(object sender, EventArgs e)
+        {
+            fSub45 _dlg = new fSub45();
+            _dlg.ShowDialog();
+
+        }
     }
 }

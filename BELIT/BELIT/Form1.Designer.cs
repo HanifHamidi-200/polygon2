@@ -41,7 +41,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btn43 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -55,10 +59,8 @@
             this.btn53 = new System.Windows.Forms.Button();
             this.btn52 = new System.Windows.Forms.Button();
             this.btn51 = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn44 = new System.Windows.Forms.Button();
+            this.btn45 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -220,11 +222,34 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "AndamanStreet";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Magenta;
+            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label12.Location = new System.Drawing.Point(497, 159);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(81, 15);
+            this.label12.TabIndex = 13;
+            this.label12.Text = "ChristmasCards";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.Location = new System.Drawing.Point(265, 148);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(208, 34);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "DessicatedCoconut";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Lime;
+            this.groupBox2.Controls.Add(this.btn45);
+            this.groupBox2.Controls.Add(this.btn44);
             this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.btn43);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label9);
@@ -233,10 +258,32 @@
             this.groupBox2.Controls.Add(this.btn41);
             this.groupBox2.Location = new System.Drawing.Point(30, 231);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(745, 156);
+            this.groupBox2.Size = new System.Drawing.Size(964, 156);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "WondersStreet";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Magenta;
+            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label13.Location = new System.Drawing.Point(788, 110);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(108, 15);
+            this.label13.TabIndex = 16;
+            this.label13.Text = "construction supplies";
+            // 
+            // btn43
+            // 
+            this.btn43.BackColor = System.Drawing.Color.Red;
+            this.btn43.Location = new System.Drawing.Point(29, 99);
+            this.btn43.Name = "btn43";
+            this.btn43.Size = new System.Drawing.Size(208, 34);
+            this.btn43.TabIndex = 15;
+            this.btn43.Text = "VaM";
+            this.btn43.UseVisualStyleBackColor = false;
+            this.btn43.Click += new System.EventHandler(this.btn43_Click);
             // 
             // label7
             // 
@@ -387,59 +434,40 @@
             this.btn51.UseVisualStyleBackColor = false;
             this.btn51.Click += new System.EventHandler(this.btn51_Click);
             // 
-            // label12
+            // btn44
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Magenta;
-            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label12.Location = new System.Drawing.Point(497, 159);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(81, 15);
-            this.label12.TabIndex = 13;
-            this.label12.Text = "ChristmasCards";
+            this.btn44.BackColor = System.Drawing.Color.Red;
+            this.btn44.Location = new System.Drawing.Point(265, 99);
+            this.btn44.Name = "btn44";
+            this.btn44.Size = new System.Drawing.Size(208, 34);
+            this.btn44.TabIndex = 17;
+            this.btn44.Text = "AzerbaijanTradeCentre";
+            this.btn44.UseVisualStyleBackColor = false;
+            this.btn44.Click += new System.EventHandler(this.btn44_Click);
             // 
-            // button1
+            // btn45
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(265, 148);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(208, 34);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "DessicatedCoconut";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Magenta;
-            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label13.Location = new System.Drawing.Point(268, 110);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(108, 15);
-            this.label13.TabIndex = 16;
-            this.label13.Text = "construction supplies";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.Location = new System.Drawing.Point(29, 99);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(208, 34);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "VaM";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn45.BackColor = System.Drawing.Color.Red;
+            this.btn45.Location = new System.Drawing.Point(505, 99);
+            this.btn45.Name = "btn45";
+            this.btn45.Size = new System.Drawing.Size(208, 34);
+            this.btn45.TabIndex = 18;
+            this.btn45.Text = "InterfacingRobots";
+            this.btn45.UseVisualStyleBackColor = false;
+            this.btn45.Click += new System.EventHandler(this.btn45_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(866, 630);
+            this.ClientSize = new System.Drawing.Size(1056, 630);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "BELIT";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -482,7 +510,9 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn43;
+        private System.Windows.Forms.Button btn45;
+        private System.Windows.Forms.Button btn44;
     }
 }
 
