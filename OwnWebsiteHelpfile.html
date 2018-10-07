@@ -2,26 +2,37 @@
 <html>
     <head>
         <title>OwnWebsiteHelpfile</title>
-        <style>
-                body {
-                    background-color: lightblue;
-                    color: darkblue;
+        <link rel="stylesheet" type="text/css" href="C:\Users\hanif\Desktop\polygon2\mystyle.css">
+   <style>
+   body {
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+.topnav{
+    background-color:darkblue;
+    color:black;
+}
+    .content{
+                    background-color:lightblue;
+                    color:black;
                 }
-                
-                h1 {
-                    color: white;
+  
+                .content h1 {
+                    color: rgb(206, 34, 34);
                     font-size: 48;
                     text-align: center;
                 }
                 
-                h2 {
+                .content h2 {
                     color: rgb(219, 114, 163);
                     font-size: 38;
                     text-align: center;
                 }
                
-                </style>
-         <script>
+
+</style>
+   <script>
         function validateForm() {
             var x = document.forms["myForm"]["fname"].value;
             if (x == "") {
@@ -33,6 +44,7 @@
                      
     </head>
     <body>
+    <div class="topnav">
         <p>Title = OwnWebsiteHelpfile</p>
         <p>Author = Hanif Hamidi</p>
         <button type="button"
@@ -49,7 +61,8 @@
         <input type="button" value="Accounts">
         <input type="submit" value="Submit">
         </form>
-
+    </div>
+    <div class="content">
         <h1>ClairvoyanceSystem</h1>
         <img src="B_ClairevoyanceSystem\F BackgroundNoiseRelationship.png" alt="F BackgroundNoiseRelationship" width="800" height="500">
         <img src="B_ClairevoyanceSystem\F BoardnowSituation.png" alt="F BoardnowSituation" width="800" height="500">
@@ -132,6 +145,6 @@
        <img src="B_UndisturbedNest\F VisualBasic1.png" alt="F VisualBasic1" width="800" height="500">
        <img src="B_UndisturbedNest\F VisualBasic2.png" alt="F VisualBasic2" width="800" height="500">
        <img src="B_UndisturbedNest\F VocateEmancipation.png" alt="F VocateEmancipation" width="800" height="500">
-      
+    </div> 
     </body>
 </html>

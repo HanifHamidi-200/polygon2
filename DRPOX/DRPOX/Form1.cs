@@ -54,6 +54,11 @@ namespace DRPOX
                     lbl1.BackColor = Color.Red;
                     break;
                 case 2:
+                    fraPrimary.BackColor = Color.Green;
+                    fraSecondary.BackColor = Color.Purple;
+                    lbl1.BackColor = Color.Yellow;
+                    break;
+                case 3:
                     fraPrimary.BackColor = Color.DarkBlue ;
                     fraSecondary.BackColor = Color.LightBlue ;
                     lbl1.BackColor = Color.Yellow;
@@ -83,12 +88,12 @@ namespace DRPOX
 
         private void btnStyle2_Click(object sender, EventArgs e)
         {
-            fStyle(2);
+            fStyle(3);
         }
 
         private void btnStyle3_Click(object sender, EventArgs e)
         {
-            fStyle(3);
+            fStyle(4);
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -99,6 +104,11 @@ namespace DRPOX
         private void lbl1_Click(object sender, EventArgs e)
         {
             lbl1.Text = txtTitle.Text;
+        }
+
+        private void btnStyle2_Click_1(object sender, EventArgs e)
+        {
+            fStyle(2);
         }
     }
 }

@@ -1,0 +1,28 @@
+body {
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topnav{
+    background-color:darkblue;
+    color:black;
+}
+                content{
+                    background-color:lightblue;
+                    color:black;
+                }
+  
+                .content h1 {
+                    color: rgb(206, 34, 34);
+                    font-size: 48;
+                    text-align: center;
+                }
+                
+                .content h2 {
+                    color: rgb(219, 114, 163);
+                    font-size: 38;
+                    text-align: center;
+                }
+               
+            
+        </style>

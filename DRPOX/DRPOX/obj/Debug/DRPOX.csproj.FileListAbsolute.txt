@@ -12,3 +12,17 @@ C:\Users\hanif\source\repos\DRPOX\DRPOX\bin\Debug\DRPOX.exe.manifest
 C:\Users\hanif\source\repos\DRPOX\DRPOX\bin\Debug\DRPOX.application
 C:\Users\hanif\source\repos\DRPOX\DRPOX\obj\Debug\DRPOX.exe.manifest
 C:\Users\hanif\source\repos\DRPOX\DRPOX\obj\Debug\DRPOX.application
+C:\Users\hanif\Desktop\DRPOX\DRPOX\bin\Debug\DRPOX.exe.config
+C:\Users\hanif\Desktop\DRPOX\DRPOX\bin\Debug\DRPOX.exe.manifest
+C:\Users\hanif\Desktop\DRPOX\DRPOX\bin\Debug\DRPOX.application
+C:\Users\hanif\Desktop\DRPOX\DRPOX\bin\Debug\DRPOX.exe
+C:\Users\hanif\Desktop\DRPOX\DRPOX\bin\Debug\DRPOX.pdb
+C:\Users\hanif\Desktop\DRPOX\DRPOX\obj\Debug\DRPOX.csprojAssemblyReference.cache
+C:\Users\hanif\Desktop\DRPOX\DRPOX\obj\Debug\DRPOX.Form1.resources
+C:\Users\hanif\Desktop\DRPOX\DRPOX\obj\Debug\DRPOX.Properties.Resources.resources
+C:\Users\hanif\Desktop\DRPOX\DRPOX\obj\Debug\DRPOX.csproj.GenerateResource.cache
+C:\Users\hanif\Desktop\DRPOX\DRPOX\obj\Debug\DRPOX.csproj.CoreCompileInputs.cache
+C:\Users\hanif\Desktop\DRPOX\DRPOX\obj\Debug\DRPOX.exe.manifest
+C:\Users\hanif\Desktop\DRPOX\DRPOX\obj\Debug\DRPOX.application
+C:\Users\hanif\Desktop\DRPOX\DRPOX\obj\Debug\DRPOX.exe
+C:\Users\hanif\Desktop\DRPOX\DRPOX\obj\Debug\DRPOX.pdb

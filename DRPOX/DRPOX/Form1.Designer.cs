@@ -29,16 +29,17 @@
         private void InitializeComponent()
         {
             this.fraPrimary = new System.Windows.Forms.GroupBox();
-            this.txt1 = new System.Windows.Forms.TextBox();
-            this.lbl1 = new System.Windows.Forms.Label();
             this.txt2 = new System.Windows.Forms.RichTextBox();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.txt1 = new System.Windows.Forms.TextBox();
             this.fraSecondary = new System.Windows.Forms.GroupBox();
             this.txt3 = new System.Windows.Forms.RichTextBox();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnStyle1 = new System.Windows.Forms.Button();
-            this.btnStyle2 = new System.Windows.Forms.Button();
             this.btnStyle3 = new System.Windows.Forms.Button();
+            this.btnStyle4 = new System.Windows.Forms.Button();
             this.txtTitle = new System.Windows.Forms.TextBox();
+            this.btnStyle2 = new System.Windows.Forms.Button();
             this.fraPrimary.SuspendLayout();
             this.fraSecondary.SuspendLayout();
             this.SuspendLayout();
@@ -55,12 +56,13 @@
             this.fraPrimary.TabStop = false;
             this.fraPrimary.Text = "Primary";
             // 
-            // txt1
+            // txt2
             // 
-            this.txt1.Location = new System.Drawing.Point(27, 27);
-            this.txt1.Name = "txt1";
-            this.txt1.Size = new System.Drawing.Size(253, 20);
-            this.txt1.TabIndex = 0;
+            this.txt2.Location = new System.Drawing.Point(27, 147);
+            this.txt2.Name = "txt2";
+            this.txt2.Size = new System.Drawing.Size(264, 148);
+            this.txt2.TabIndex = 2;
+            this.txt2.Text = "";
             // 
             // lbl1
             // 
@@ -74,13 +76,12 @@
             this.lbl1.Text = "Title";
             this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
             // 
-            // txt2
+            // txt1
             // 
-            this.txt2.Location = new System.Drawing.Point(27, 147);
-            this.txt2.Name = "txt2";
-            this.txt2.Size = new System.Drawing.Size(264, 148);
-            this.txt2.TabIndex = 2;
-            this.txt2.Text = "";
+            this.txt1.Location = new System.Drawing.Point(27, 27);
+            this.txt1.Name = "txt1";
+            this.txt1.Size = new System.Drawing.Size(253, 20);
+            this.txt1.TabIndex = 0;
             // 
             // fraSecondary
             // 
@@ -122,27 +123,27 @@
             this.btnStyle1.UseVisualStyleBackColor = false;
             this.btnStyle1.Click += new System.EventHandler(this.btnStyle1_Click);
             // 
-            // btnStyle2
-            // 
-            this.btnStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnStyle2.Location = new System.Drawing.Point(462, 224);
-            this.btnStyle2.Name = "btnStyle2";
-            this.btnStyle2.Size = new System.Drawing.Size(120, 81);
-            this.btnStyle2.TabIndex = 4;
-            this.btnStyle2.Text = "Pluto";
-            this.btnStyle2.UseVisualStyleBackColor = false;
-            this.btnStyle2.Click += new System.EventHandler(this.btnStyle2_Click);
-            // 
             // btnStyle3
             // 
             this.btnStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnStyle3.Location = new System.Drawing.Point(462, 311);
+            this.btnStyle3.Location = new System.Drawing.Point(462, 224);
             this.btnStyle3.Name = "btnStyle3";
             this.btnStyle3.Size = new System.Drawing.Size(120, 81);
-            this.btnStyle3.TabIndex = 5;
-            this.btnStyle3.Text = "Account";
+            this.btnStyle3.TabIndex = 4;
+            this.btnStyle3.Text = "Pluto";
             this.btnStyle3.UseVisualStyleBackColor = false;
-            this.btnStyle3.Click += new System.EventHandler(this.btnStyle3_Click);
+            this.btnStyle3.Click += new System.EventHandler(this.btnStyle2_Click);
+            // 
+            // btnStyle4
+            // 
+            this.btnStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnStyle4.Location = new System.Drawing.Point(588, 224);
+            this.btnStyle4.Name = "btnStyle4";
+            this.btnStyle4.Size = new System.Drawing.Size(120, 81);
+            this.btnStyle4.TabIndex = 5;
+            this.btnStyle4.Text = "Account";
+            this.btnStyle4.UseVisualStyleBackColor = false;
+            this.btnStyle4.Click += new System.EventHandler(this.btnStyle3_Click);
             // 
             // txtTitle
             // 
@@ -152,15 +153,27 @@
             this.txtTitle.Size = new System.Drawing.Size(120, 20);
             this.txtTitle.TabIndex = 6;
             // 
+            // btnStyle2
+            // 
+            this.btnStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnStyle2.Location = new System.Drawing.Point(588, 137);
+            this.btnStyle2.Name = "btnStyle2";
+            this.btnStyle2.Size = new System.Drawing.Size(120, 81);
+            this.btnStyle2.TabIndex = 7;
+            this.btnStyle2.Text = "BanburyCircle";
+            this.btnStyle2.UseVisualStyleBackColor = false;
+            this.btnStyle2.Click += new System.EventHandler(this.btnStyle2_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(617, 603);
-            this.Controls.Add(this.txtTitle);
-            this.Controls.Add(this.btnStyle3);
+            this.ClientSize = new System.Drawing.Size(748, 603);
             this.Controls.Add(this.btnStyle2);
+            this.Controls.Add(this.txtTitle);
+            this.Controls.Add(this.btnStyle4);
+            this.Controls.Add(this.btnStyle3);
             this.Controls.Add(this.btnStyle1);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.fraSecondary);
@@ -186,9 +199,10 @@
         private System.Windows.Forms.RichTextBox txt3;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnStyle1;
-        private System.Windows.Forms.Button btnStyle2;
         private System.Windows.Forms.Button btnStyle3;
+        private System.Windows.Forms.Button btnStyle4;
         private System.Windows.Forms.TextBox txtTitle;
+        private System.Windows.Forms.Button btnStyle2;
     }
 }
 
