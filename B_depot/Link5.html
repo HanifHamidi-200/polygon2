@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>OwnWebsite - Hanif Hamidi</title>
+    
+<style>
+    body {
+     margin: 5px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ .topnav{
+     background-color:darkblue;
+     color:black;
+ }
+     .content{
+                     background-color:lightblue;
+                     color:black;
+                 }
+   
+                 .content h1 {
+                     color: rgb(206, 34, 34);
+                     font-size: 48;
+                     text-align: center;
+                 }
+                 
+                 .content h2 {
+                     color: rgb(219, 114, 163);
+                     font-size: 38;
+                     text-align: center;
+                 }
+                
+ 
+ </style>
+    
+         <script>
+                function validateForm() {
+                    var x = document.forms["myForm"]["fname"].value;
+                    if (x == "") {
+                        alert("Name must be filled out");
+                        return false;
+                    }
+                }
+                </script>
+                
+    </head>
+    <body>
+        <div class="topnav">
+        <p>Title = OwnWebsite</p>
+        <p>Author = Hanif Hamidi</p>
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+
+        <p id="demo"></p>
+
+        <form name="myForm" action="/action_page.php"
+        onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        <input type="button" value="Frank">
+        <input type="button" value="Pluto">
+        <input type="button" value="Accounts">
+        <input type="submit" value="Submit">
+        </form>
+        </div>
+        <div class="content">
+        <h1>MAIN</h1>
+        <img src="C_RegistryStrategic\F BotsFrameworkIngeneity.png" alt="F BotsFrameworkIngeneity" width="800" height="500">
+        <img src="C_RegistryStrategic\F GabbleGobble.png" alt="F GabbleGobble" width="800" height="500">
+        <img src="C_RegistryStrategic\F PeacockComesUp.png" alt="F PeacockComesUp" width="800" height="500">
+        <img src="C_RegistryStrategic\F TandaariReset.png" alt="F TandaariReset" width="800" height="500">
+        <img src="C_RegistryStrategic\F TrollsPlowman.png" alt="F TrollsPlowman" width="800" height="500">
+        <img src="C_RegistryStrategic\F YusufStory.png" alt="F YusufStory" width="800" height="500">
+        <h1>LINKS</h1>
+        <a href="Link1.html">Link1</a>
+        <a href="Link2.html">Link2</a>
+        <a href="Link3.html">Link3</a>
+        <a href="Link4.html">Link4</a>
+        <a href="Link5.html">Link5</a>
+        <a href="Link6.html">Link6</a>
+  </div>
+        </body>
+</html>
