@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\WMB\WMB\bin\Debug\WMB.exe.config
+C:\Users\hanif\source\repos\WMB\WMB\bin\Debug\WMB.exe.manifest
+C:\Users\hanif\source\repos\WMB\WMB\bin\Debug\WMB.application
+C:\Users\hanif\source\repos\WMB\WMB\bin\Debug\WMB.exe
+C:\Users\hanif\source\repos\WMB\WMB\bin\Debug\WMB.pdb
+C:\Users\hanif\source\repos\WMB\WMB\obj\Debug\WMB.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\WMB\WMB\obj\Debug\WMB.Form1.resources
+C:\Users\hanif\source\repos\WMB\WMB\obj\Debug\WMB.Properties.Resources.resources
+C:\Users\hanif\source\repos\WMB\WMB\obj\Debug\WMB.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\WMB\WMB\obj\Debug\WMB.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\WMB\WMB\obj\Debug\WMB.exe.manifest
+C:\Users\hanif\source\repos\WMB\WMB\obj\Debug\WMB.application
+C:\Users\hanif\source\repos\WMB\WMB\obj\Debug\WMB.exe
+C:\Users\hanif\source\repos\WMB\WMB\obj\Debug\WMB.pdb

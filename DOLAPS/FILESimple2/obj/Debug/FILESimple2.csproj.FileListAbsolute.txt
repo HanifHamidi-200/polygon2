@@ -1,0 +1,9 @@
+C:\Users\hanif\source\repos\DOLAPS\FILESimple2\bin\Debug\FILESimple2.dll
+C:\Users\hanif\source\repos\DOLAPS\FILESimple2\bin\Debug\FILESimple2.pdb
+C:\Users\hanif\source\repos\DOLAPS\FILESimple2\bin\Debug\FILESimple.dll
+C:\Users\hanif\source\repos\DOLAPS\FILESimple2\bin\Debug\FILESimple.pdb
+C:\Users\hanif\source\repos\DOLAPS\FILESimple2\obj\Debug\FILESimple2.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\DOLAPS\FILESimple2\obj\Debug\FILESimple2.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\DOLAPS\FILESimple2\obj\Debug\FILESimple2.csproj.CopyComplete
+C:\Users\hanif\source\repos\DOLAPS\FILESimple2\obj\Debug\FILESimple2.dll
+C:\Users\hanif\source\repos\DOLAPS\FILESimple2\obj\Debug\FILESimple2.pdb

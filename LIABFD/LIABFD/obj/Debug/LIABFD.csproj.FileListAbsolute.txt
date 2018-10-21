@@ -1,0 +1,16 @@
+C:\Users\hanif\source\repos\LIABFD\LIABFD\bin\Debug\LIABFD.exe.config
+C:\Users\hanif\source\repos\LIABFD\LIABFD\bin\Debug\LIABFD.exe.manifest
+C:\Users\hanif\source\repos\LIABFD\LIABFD\bin\Debug\LIABFD.application
+C:\Users\hanif\source\repos\LIABFD\LIABFD\bin\Debug\LIABFD.exe
+C:\Users\hanif\source\repos\LIABFD\LIABFD\bin\Debug\LIABFD.pdb
+C:\Users\hanif\source\repos\LIABFD\LIABFD\obj\Debug\LIABFD.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\LIABFD\LIABFD\obj\Debug\LIABFD.Form1.resources
+C:\Users\hanif\source\repos\LIABFD\LIABFD\obj\Debug\LIABFD.fSub1.resources
+C:\Users\hanif\source\repos\LIABFD\LIABFD\obj\Debug\LIABFD.Properties.Resources.resources
+C:\Users\hanif\source\repos\LIABFD\LIABFD\obj\Debug\LIABFD.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\LIABFD\LIABFD\obj\Debug\LIABFD.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\LIABFD\LIABFD\obj\Debug\LIABFD.exe.manifest
+C:\Users\hanif\source\repos\LIABFD\LIABFD\obj\Debug\LIABFD.application
+C:\Users\hanif\source\repos\LIABFD\LIABFD\obj\Debug\LIABFD.exe
+C:\Users\hanif\source\repos\LIABFD\LIABFD\obj\Debug\LIABFD.pdb
+C:\Users\hanif\source\repos\LIABFD\LIABFD\obj\Debug\LIABFD.fSub2.resources

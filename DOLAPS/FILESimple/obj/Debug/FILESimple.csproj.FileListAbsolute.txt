@@ -1,0 +1,6 @@
+C:\Users\hanif\source\repos\DOLAPS\FILESimple\bin\Debug\FILESimple.dll
+C:\Users\hanif\source\repos\DOLAPS\FILESimple\bin\Debug\FILESimple.pdb
+C:\Users\hanif\source\repos\DOLAPS\FILESimple\obj\Debug\FILESimple.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\DOLAPS\FILESimple\obj\Debug\FILESimple.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\DOLAPS\FILESimple\obj\Debug\FILESimple.dll
+C:\Users\hanif\source\repos\DOLAPS\FILESimple\obj\Debug\FILESimple.pdb

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="JACK.exe" version="1.0.0.0" publicKeyToken="d5608e112e97ec59" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F setsquare.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="JACK" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="JACK.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+         requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JACK.exe" size="24544">
+      <assemblyIdentity name="JACK" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GF2sWHpv97Z4OldtNq++1HfoS7UIuxM5nmMqqDLNnEE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="F setsquare.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sOh28dQre8NqRjUaypVHgQUn1+qalRx2FT89GsUmU2E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="JACK.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="c1fc8dc294d46ac05b8ccac7d7caa7c224a59e0c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vOJ+tzJRVVufT48aqxTIuZNn/a6VcsukdrKvxJgPrpA=</DigestValue></Reference></SignedInfo><SignatureValue>3PtYU5U2V4kqGuscmah9y5iqZQvObp1Byly9n1tD0FgiTMqFYNPyjvkxQCk4BeaEsZE5+Kl6YicAOBoJg+QXaxDTDt5z8XJSYov3KJnNcH5gDM2yvzZK7XCzRjkRm16Vmu26YmOV9yet7lblhUKz+dg+GvmW9O4wSLQgAht7coQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7lF4YBpJA+EhHvwpSdWyEe+RVSJGnMU+tb50IYx//A2nMriLuWWv8Yqa4jHmDKlRk++EBMNt7VZ5FyCGVG46Aih8ME+MN0PRHQyjM3RR6r6FME5k/SJwKL+l8RBet2Trnp6UeWY7BhE6WNWJXk8EWOCyq43mSDDvlGNfjYOqX1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="90ae0f98c4afb276a4cb7295aefd6793b9c814ab1a8f4f9f5b555132b77ee2bc" Description="" Url=""><as:assemblyIdentity name="JACK.exe" version="1.0.0.0" publicKeyToken="d5608e112e97ec59" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ft7YEc6C1O3xD51fX6UBUxGAf+r4gXz2t6naohTrCRo=</DigestValue></Reference></SignedInfo><SignatureValue>ldZrxwcFcXI4IMBNMBN/EuGZnRZJlLal72nZJxiCzL1ytYwmHtBESGPMJO8yAg/4SnTolWEyv/4NeJLEC0yqANFjmxNEF7493qGiK5Nru87FcG6qERhefB15HYahHX3fKMlS8np2O2tq1bqqVVMxC+B9fKTDlrQjrg92DjYFVMk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7lF4YBpJA+EhHvwpSdWyEe+RVSJGnMU+tb50IYx//A2nMriLuWWv8Yqa4jHmDKlRk++EBMNt7VZ5FyCGVG46Aih8ME+MN0PRHQyjM3RR6r6FME5k/SJwKL+l8RBet2Trnp6UeWY7BhE6WNWJXk8EWOCyq43mSDDvlGNfjYOqX1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQNyyMDQMTbKFEAPwmt/ZN9jANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgxMDAzMTUxNzE5WhcNMTkxMDAzMjExNzE5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO5ReGAaSQPhIR78KUnVshHvkVUiRpzFPrW+dCGMf/wNpzK4i7llr/GKmuIx5gypUZPvhATDbe1WeRcghlRuOgIofDBPjDdD0R0MozN0Ueq+hTBOZP0icCi/pfEQXrdk656elHlmOwYROljViV5PBFjgsquN5kgw75RjX42Dql9VAgMBAAEwDQYJKoZIhvcNAQELBQADgYEA2jHsx985n7cn+xhzkggBYxKE7XjahE2ezydckJ2/TAgTTcL60zGXVeAXwXDQXCQ6LVbMk4YKgH1Gc+Dxj1nKn48zpvyfNMhobjdSqKs8m/qM3MmEqA5Y2oHa+bWzG+SmaMw50Hpqjhb4JptNXWjJoJ33KYZErdmvInOsnp2UADI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

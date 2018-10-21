@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOLAPS", "DOLAPS\DOLAPS.csproj", "{2923A8E9-6C34-4E2A-9B4B-943FCD83A9D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FILESimple2", "FILESimple2\FILESimple2.csproj", "{AE9251EF-8B82-40F5-AADF-63F61F9FBDF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2923A8E9-6C34-4E2A-9B4B-943FCD83A9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2923A8E9-6C34-4E2A-9B4B-943FCD83A9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2923A8E9-6C34-4E2A-9B4B-943FCD83A9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2923A8E9-6C34-4E2A-9B4B-943FCD83A9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9251EF-8B82-40F5-AADF-63F61F9FBDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9251EF-8B82-40F5-AADF-63F61F9FBDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9251EF-8B82-40F5-AADF-63F61F9FBDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9251EF-8B82-40F5-AADF-63F61F9FBDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3D707FF-0078-40B0-928C-B7F01E263E6F}
+	EndGlobalSection
+EndGlobal

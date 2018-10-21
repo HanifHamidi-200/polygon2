@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\FRAMW\FRAMW\bin\Debug\FRAMW.exe.config
+C:\Users\hanif\source\repos\FRAMW\FRAMW\bin\Debug\FRAMW.exe.manifest
+C:\Users\hanif\source\repos\FRAMW\FRAMW\bin\Debug\FRAMW.application
+C:\Users\hanif\source\repos\FRAMW\FRAMW\bin\Debug\FRAMW.exe
+C:\Users\hanif\source\repos\FRAMW\FRAMW\bin\Debug\FRAMW.pdb
+C:\Users\hanif\source\repos\FRAMW\FRAMW\obj\Debug\FRAMW.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\FRAMW\FRAMW\obj\Debug\FRAMW.Form1.resources
+C:\Users\hanif\source\repos\FRAMW\FRAMW\obj\Debug\FRAMW.Properties.Resources.resources
+C:\Users\hanif\source\repos\FRAMW\FRAMW\obj\Debug\FRAMW.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\FRAMW\FRAMW\obj\Debug\FRAMW.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\FRAMW\FRAMW\obj\Debug\FRAMW.exe.manifest
+C:\Users\hanif\source\repos\FRAMW\FRAMW\obj\Debug\FRAMW.application
+C:\Users\hanif\source\repos\FRAMW\FRAMW\obj\Debug\FRAMW.exe
+C:\Users\hanif\source\repos\FRAMW\FRAMW\obj\Debug\FRAMW.pdb

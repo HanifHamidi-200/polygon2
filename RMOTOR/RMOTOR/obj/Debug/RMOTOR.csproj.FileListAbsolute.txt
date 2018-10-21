@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\bin\Debug\RMOTOR.exe.config
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\bin\Debug\RMOTOR.exe.manifest
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\bin\Debug\RMOTOR.application
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\bin\Debug\RMOTOR.exe
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\bin\Debug\RMOTOR.pdb
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\obj\Debug\RMOTOR.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\obj\Debug\RMOTOR.Form1.resources
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\obj\Debug\RMOTOR.Properties.Resources.resources
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\obj\Debug\RMOTOR.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\obj\Debug\RMOTOR.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\obj\Debug\RMOTOR.exe.manifest
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\obj\Debug\RMOTOR.application
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\obj\Debug\RMOTOR.exe
+C:\Users\hanif\source\repos\RMOTOR\RMOTOR\obj\Debug\RMOTOR.pdb

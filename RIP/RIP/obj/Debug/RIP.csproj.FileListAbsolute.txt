@@ -1,0 +1,14 @@
+C:\Users\hanif\source\repos\RIP\RIP\bin\Debug\RIP.exe.config
+C:\Users\hanif\source\repos\RIP\RIP\bin\Debug\RIP.exe
+C:\Users\hanif\source\repos\RIP\RIP\bin\Debug\RIP.pdb
+C:\Users\hanif\source\repos\RIP\RIP\obj\Debug\RIP.csprojAssemblyReference.cache
+C:\Users\hanif\source\repos\RIP\RIP\obj\Debug\RIP.Form1.resources
+C:\Users\hanif\source\repos\RIP\RIP\obj\Debug\RIP.Properties.Resources.resources
+C:\Users\hanif\source\repos\RIP\RIP\obj\Debug\RIP.csproj.GenerateResource.cache
+C:\Users\hanif\source\repos\RIP\RIP\obj\Debug\RIP.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\repos\RIP\RIP\obj\Debug\RIP.exe
+C:\Users\hanif\source\repos\RIP\RIP\obj\Debug\RIP.pdb
+C:\Users\hanif\source\repos\RIP\RIP\bin\Debug\RIP.exe.manifest
+C:\Users\hanif\source\repos\RIP\RIP\bin\Debug\RIP.application
+C:\Users\hanif\source\repos\RIP\RIP\obj\Debug\RIP.exe.manifest
+C:\Users\hanif\source\repos\RIP\RIP\obj\Debug\RIP.application
