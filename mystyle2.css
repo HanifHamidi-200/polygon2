@@ -12,15 +12,15 @@ body {
                 }
   
                 .content h1 {
-                    background-color:blue;
+                    background-color:green;
                     color: rgb(206, 34, 34);
                     font-size: 48;
                     text-align: center;
                 }
                 
                 .content h2 {
-                    background-color:lightblue;
-                    color: rgb(219, 114, 163);
+                    background-color:purple;
+                    color: black;
                     font-size: 38;
                     text-align: center;
                 }
