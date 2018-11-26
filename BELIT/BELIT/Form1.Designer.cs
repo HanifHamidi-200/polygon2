@@ -44,6 +44,8 @@
             this.label12 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btn45 = new System.Windows.Forms.Button();
+            this.btn44 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.btn43 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -59,8 +61,7 @@
             this.btn53 = new System.Windows.Forms.Button();
             this.btn52 = new System.Windows.Forms.Button();
             this.btn51 = new System.Windows.Forms.Button();
-            this.btn44 = new System.Windows.Forms.Button();
-            this.btn45 = new System.Windows.Forms.Button();
+            this.btn54 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -263,6 +264,28 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "WondersStreet";
             // 
+            // btn45
+            // 
+            this.btn45.BackColor = System.Drawing.Color.Red;
+            this.btn45.Location = new System.Drawing.Point(505, 99);
+            this.btn45.Name = "btn45";
+            this.btn45.Size = new System.Drawing.Size(208, 34);
+            this.btn45.TabIndex = 18;
+            this.btn45.Text = "InterfacingRobots";
+            this.btn45.UseVisualStyleBackColor = false;
+            this.btn45.Click += new System.EventHandler(this.btn45_Click);
+            // 
+            // btn44
+            // 
+            this.btn44.BackColor = System.Drawing.Color.Red;
+            this.btn44.Location = new System.Drawing.Point(265, 99);
+            this.btn44.Name = "btn44";
+            this.btn44.Size = new System.Drawing.Size(208, 34);
+            this.btn44.TabIndex = 17;
+            this.btn44.Text = "AzerbaijanTradeCentre";
+            this.btn44.UseVisualStyleBackColor = false;
+            this.btn44.Click += new System.EventHandler(this.btn44_Click);
+            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -354,6 +377,7 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Lime;
+            this.groupBox3.Controls.Add(this.btn54);
             this.groupBox3.Controls.Add(this.textBox1);
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Controls.Add(this.listBox1);
@@ -371,7 +395,7 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.Yellow;
-            this.textBox1.Location = new System.Drawing.Point(472, 141);
+            this.textBox1.Location = new System.Drawing.Point(499, 142);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(241, 20);
             this.textBox1.TabIndex = 14;
@@ -381,7 +405,7 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Magenta;
             this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label11.Location = new System.Drawing.Point(470, 19);
+            this.label11.Location = new System.Drawing.Point(497, 20);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(93, 15);
             this.label11.TabIndex = 13;
@@ -396,7 +420,7 @@
             "roleplay statistics",
             "CarpetRights popularity",
             "PollyannaEngine popularity"});
-            this.listBox1.Location = new System.Drawing.Point(470, 37);
+            this.listBox1.Location = new System.Drawing.Point(497, 38);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(184, 95);
             this.listBox1.TabIndex = 6;
@@ -434,27 +458,16 @@
             this.btn51.UseVisualStyleBackColor = false;
             this.btn51.Click += new System.EventHandler(this.btn51_Click);
             // 
-            // btn44
+            // btn54
             // 
-            this.btn44.BackColor = System.Drawing.Color.Red;
-            this.btn44.Location = new System.Drawing.Point(265, 99);
-            this.btn44.Name = "btn44";
-            this.btn44.Size = new System.Drawing.Size(208, 34);
-            this.btn44.TabIndex = 17;
-            this.btn44.Text = "AzerbaijanTradeCentre";
-            this.btn44.UseVisualStyleBackColor = false;
-            this.btn44.Click += new System.EventHandler(this.btn44_Click);
-            // 
-            // btn45
-            // 
-            this.btn45.BackColor = System.Drawing.Color.Red;
-            this.btn45.Location = new System.Drawing.Point(505, 99);
-            this.btn45.Name = "btn45";
-            this.btn45.Size = new System.Drawing.Size(208, 34);
-            this.btn45.TabIndex = 18;
-            this.btn45.Text = "InterfacingRobots";
-            this.btn45.UseVisualStyleBackColor = false;
-            this.btn45.Click += new System.EventHandler(this.btn45_Click);
+            this.btn54.BackColor = System.Drawing.Color.Red;
+            this.btn54.Location = new System.Drawing.Point(265, 19);
+            this.btn54.Name = "btn54";
+            this.btn54.Size = new System.Drawing.Size(208, 34);
+            this.btn54.TabIndex = 15;
+            this.btn54.Text = "ItsCupping";
+            this.btn54.UseVisualStyleBackColor = false;
+            this.btn54.Click += new System.EventHandler(this.btn54_Click);
             // 
             // Form1
             // 
@@ -513,6 +526,7 @@
         private System.Windows.Forms.Button btn43;
         private System.Windows.Forms.Button btn45;
         private System.Windows.Forms.Button btn44;
+        private System.Windows.Forms.Button btn54;
     }
 }
 

@@ -124,5 +124,12 @@ namespace BELIT
             _dlg.ShowDialog();
 
         }
+
+        private void btn54_Click(object sender, EventArgs e)
+        {
+            fSub54 _dlg = new fSub54();
+            _dlg.ShowDialog();
+
+        }
     }
 }
