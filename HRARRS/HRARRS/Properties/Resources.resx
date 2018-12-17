@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,238 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="slot1_A1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F A1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_A2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F A2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_A3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F A3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_A4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F A4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_B1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F B1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_B2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F B2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_B3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F B3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_B4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F B4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_C1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F C1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_C2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F C2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_C3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F C3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_C4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F C4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_D1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F D1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_D2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F D2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_D3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F D3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_D4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F D4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_holehere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F holehere.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_NullGate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F NullGate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot1_specialsquarefound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot1\F specialsquarefound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_A1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F A1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_A2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F A2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_A3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F A3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_A4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F A4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_B1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F B1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_B2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F B2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_B3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F B3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_B4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F B4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_C1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F C1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_C2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F C2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_C3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F C3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_C4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F C4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_D1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F D1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_D2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F D2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_D3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F D3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_D4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F D4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_holehere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F holehere.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_NullGate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F NullGate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot2_specialsquarefound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot2\F specialsquarefound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_A1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F A1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_A2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F A2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_A3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F A3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_A4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F A4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_B1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F B1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_B2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F B2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_B3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F B3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_B4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F B4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_C1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F C1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_C2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F C2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_C3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F C3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_C4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F C4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_D1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F D1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_D2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F D2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_D3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F D3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_D4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F D4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_holehere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F holehere.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_NullGate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F NullGate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot3_specialsquarefound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot3\F specialsquarefound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_A1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F A1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_A2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F A2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_A3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F A3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_A4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F A4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_B1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F B1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_B2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F B2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_B3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F B3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_B4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F B4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_C1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F C1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_C2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F C2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_C3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F C3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_C4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F C4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_D1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F D1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_D2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F D2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_D3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F D3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_D4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F D4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_holehere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F holehere.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_NullGate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F NullGate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slot4_specialsquarefound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\slot4\F specialsquarefound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

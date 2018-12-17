@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="INVEST.exe" version="1.0.0.4" publicKeyToken="57fdcdd164fe91d9" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="F spark.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="INVEST" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="INVEST.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="INVEST.exe" size="179680">
+      <assemblyIdentity name="INVEST" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pt+y1O3idO9Slfp6ARjMEt9kkY5CRh0gj6xwhWp4vTE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="F spark.ico" size="12206">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+EPQz208gwlcrv8qk3lmfrGWIcTsNUq2x0gU1S0rIeE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F atmosphere1.png" size="2094">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jacjVcltZMbZdkzUu7E8CO2DIgNG5eo45HpFl5gf6a0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F atmosphere2.png" size="2829">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c4CJuqyIL15b5GL6QW24kFu3xkRLrtpZpRcGutLkKzw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F basesetup.png" size="1917">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ENcc2MQB/YIx8Uewu/h2xfRc4Ek5ESqevCx7qB6liEE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F blue.png" size="546">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Pe/dLVY07JHWczlxdkJfnOjaS+0OLttNTJdNednIP3Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F bowandarrow.png" size="868">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9ZFFpXJmOUwPsZibrIcMGD2SR5MwojStBOH7Di7tixY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F enemytarget.png" size="1228">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>upT2wtsfr6I49UK3MKy69fc9c0IiPu770rOOxWjVVlI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F green.png" size="546">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h2+vSkDfSl19dlBYTJpVASkxHKT78+lXxmIWwE6ssx4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F NullGate.png" size="1422">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VGPfVpNeeNbaounH7yH8y4liVWByUGWYoZdedi71fu0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F red.png" size="954">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VzcDZRHOq4NGiCSv9mm1yb51A6K2yo7SVW/vN3mA8gA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F Stargates4.png" size="20227">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KyLFdDcRy1AC58TxPaG771XZL/xb02B3Y2Wrekcez/w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F trainline.png" size="1038">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5laubtMiwJimxR3PMn/kGhurVpspHVVaVu4iwRvcjpQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F truckleavers.png" size="2013">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yJDe8rpNrScsbRgCkrLNQQxT37T1OgQS9Ml8kzAl3nA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F tunnel.png" size="1342">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2kAQML2RClygSwE03ujYlxAwOjmMP+E8xXVGMiVPOP0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons\F yellow.png" size="536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RMyAQFjAQo8ClgJQ5y/fArP27CXj2PR0THyjp19yUSE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="INVEST.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-K87L076\hanif" issuerKeyHash="a2048efd3649ad54a9b922439554593408b7b370" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GRpDaNbKcI6xkzZw7Mg4UpJxtDgmbEGSFO8qKdEmpWw=</DigestValue></Reference></SignedInfo><SignatureValue>gjFX1+nkcG3ijuynKMSQzE07LhoEF6OHkZhBN8xncnX48TuNatWzmjbmoESdfDUAoZI0D7Ve2zzCvPa6Wi7OVQrZ2RMzMjPkIRHysNJyECc6vscj9195ID9/pDatHpOSBG1U+6TFMM2OYD+ZxCi0T0mWExcSqN1is7t2fqjA2hg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wfn0C1b9SLcY/F5LLHrU8YYD5rYrocLD0EHTYGKY8+l9g69JjH62l3nTqGA3nlnFGOJwn7oNi9Bs5irplojjboR6xbKwQOM6GJqoZqNuEBRNJnhhOYVmKbifr1reOC/xrmvkNdbAC6RTTsXCmsCuGLUc2InmqMOtePGWq1obdnE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6ca526d1292aef1492416c2638b471925238c8ec703693b18e70cad668431a19" Description="" Url=""><as:assemblyIdentity name="INVEST.exe" version="1.0.0.4" publicKeyToken="57fdcdd164fe91d9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-K87L076\hanif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EIEclonrkrGRTWMYDX3mN/c5TqM7fy46o9j6adAT56M=</DigestValue></Reference></SignedInfo><SignatureValue>FOoBkPu+P23u01pXciUCTtNX+ejl2IeGqv8q019nscsUk3Ka7yJHhXyvD6xmTkiCA4sXpEar7p7ryNMC3km7pTACl1OL2HP7Bt2wZPkuZ1w0JtEzCclFhEhbBQllypwcnTBFs8rxE7VjAl7rWO52eaz5HJ7WSk9xtQ5SGwkg9lI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wfn0C1b9SLcY/F5LLHrU8YYD5rYrocLD0EHTYGKY8+l9g69JjH62l3nTqGA3nlnFGOJwn7oNi9Bs5irplojjboR6xbKwQOM6GJqoZqNuEBRNJnhhOYVmKbifr1reOC/xrmvkNdbAC6RTTsXCmsCuGLUc2InmqMOtePGWq1obdnE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQW3nTdL4smZVL4RsJaItTxDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwHhcNMTgwOTA0MTYyMzQ2WhcNMTkwOTA0MjIyMzQ2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAOAA3AEwAMAA3ADYAXABoAGEAbgBpAGYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMH59AtW/Ui3GPxeSyx61PGGA+a2K6HCw9BB02BimPPpfYOvSYx+tpd506hgN55ZxRjicJ+6DYvQbOYq6ZaI426EesWysEDjOhiaqGajbhAUTSZ4YTmFZim4n69a3jgv8a5r5DXWwAukU07FwprArhi1HNiJ5qjDrXjxlqtaG3ZxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAMfArEMN18t+NUxISmSJa2c9MTfZQVQvSVU5049+lvl6uTRuxwZ5VoFQ0IK82P93iP2roUYVT4rBS73h2FQWpAwSH4khJgSNhVHludAxbd0mvAT5aH2OY0Y0ty1nVJuEXN3iTDOZNiqxOI4nqiom+zEpr77jQF/1fsb8GzXaKCzc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

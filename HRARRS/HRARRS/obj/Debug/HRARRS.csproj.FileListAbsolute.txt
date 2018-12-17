@@ -1,0 +1,10 @@
+C:\Users\hanif\Desktop\HRARRS\HRARRS\obj\Debug\HRARRS.csprojAssemblyReference.cache
+C:\Users\hanif\Desktop\HRARRS\HRARRS\obj\Debug\HRARRS.Form1.resources
+C:\Users\hanif\Desktop\HRARRS\HRARRS\obj\Debug\HRARRS.Properties.Resources.resources
+C:\Users\hanif\Desktop\HRARRS\HRARRS\obj\Debug\HRARRS.csproj.GenerateResource.cache
+C:\Users\hanif\Desktop\HRARRS\HRARRS\obj\Debug\HRARRS.csproj.CoreCompileInputs.cache
+C:\Users\hanif\Desktop\HRARRS\HRARRS\bin\Debug\HRARRS.exe.config
+C:\Users\hanif\Desktop\HRARRS\HRARRS\bin\Debug\HRARRS.exe
+C:\Users\hanif\Desktop\HRARRS\HRARRS\bin\Debug\HRARRS.pdb
+C:\Users\hanif\Desktop\HRARRS\HRARRS\obj\Debug\HRARRS.exe
+C:\Users\hanif\Desktop\HRARRS\HRARRS\obj\Debug\HRARRS.pdb

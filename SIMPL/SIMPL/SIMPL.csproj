@@ -49,7 +49,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>F BoulderLogic.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>22A505B4D56D000E9650FD90D6001F8522474407</ManifestCertificateThumbprint>
@@ -77,11 +78,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fCheckpoint2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCheckpoint2.Designer.cs">
+      <DependentUpon>fCheckpoint2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCounter2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCounter2.Designer.cs">
+      <DependentUpon>fCounter2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fStart1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fStart1.Designer.cs">
+      <DependentUpon>fStart1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fStart2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fStart2.Designer.cs">
+      <DependentUpon>fStart2.cs</DependentUpon>
     </Compile>
     <Compile Include="fSub1.cs">
       <SubType>Form</SubType>
@@ -105,6 +130,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fStart1.resx">
+      <DependentUpon>fStart1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSub1.resx">
+      <DependentUpon>fSub1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSub2.resx">
+      <DependentUpon>fSub2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -130,7 +164,72 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="F BoulderLogic.ico" />
+    <Content Include="F back_blue.png" />
+    <Content Include="F back_red.png" />
+    <Content Include="F die1.png" />
+    <Content Include="F die10.png" />
+    <Content Include="F die2.png" />
+    <Content Include="F die3.png" />
+    <Content Include="F die4.png" />
+    <Content Include="F die5.png" />
+    <Content Include="F die6.png" />
+    <Content Include="F die7.png" />
+    <Content Include="F die8.png" />
+    <Content Include="F die9.png" />
+    <Content Include="F ladder.png" />
+    <Content Include="F NullGate.png" />
+    <Content Include="F player1.png" />
+    <Content Include="F player11.png" />
+    <Content Include="F player12.png" />
+    <Content Include="F player13.png" />
+    <Content Include="F player14.png" />
+    <Content Include="F player2.png" />
+    <Content Include="F player21.png" />
+    <Content Include="F player22.png" />
+    <Content Include="F player23.png" />
+    <Content Include="F player24.png" />
+    <Content Include="F player31.png" />
+    <Content Include="F player32.png" />
+    <Content Include="F player33.png" />
+    <Content Include="F player34.png" />
+    <Content Include="F player41.png" />
+    <Content Include="F player42.png" />
+    <Content Include="F player43.png" />
+    <Content Include="F player44.png" />
+    <Content Include="F snake.png" />
+    <Content Include="icons\F back_blue.png" />
+    <Content Include="icons\F back_red.png" />
+    <Content Include="icons\F die1.png" />
+    <Content Include="icons\F die10.png" />
+    <Content Include="icons\F die2.png" />
+    <Content Include="icons\F die3.png" />
+    <Content Include="icons\F die4.png" />
+    <Content Include="icons\F die5.png" />
+    <Content Include="icons\F die6.png" />
+    <Content Include="icons\F die7.png" />
+    <Content Include="icons\F die8.png" />
+    <Content Include="icons\F die9.png" />
+    <Content Include="icons\F ladder.png" />
+    <Content Include="icons\F NullGate.png" />
+    <Content Include="icons\F player1.png" />
+    <Content Include="icons\F player11.png" />
+    <Content Include="icons\F player12.png" />
+    <Content Include="icons\F player13.png" />
+    <Content Include="icons\F player14.png" />
+    <Content Include="icons\F player2.png" />
+    <Content Include="icons\F player21.png" />
+    <Content Include="icons\F player22.png" />
+    <Content Include="icons\F player23.png" />
+    <Content Include="icons\F player24.png" />
+    <Content Include="icons\F player31.png" />
+    <Content Include="icons\F player32.png" />
+    <Content Include="icons\F player33.png" />
+    <Content Include="icons\F player34.png" />
+    <Content Include="icons\F player41.png" />
+    <Content Include="icons\F player42.png" />
+    <Content Include="icons\F player43.png" />
+    <Content Include="icons\F player44.png" />
+    <Content Include="icons\F snake.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
@@ -144,5 +243,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

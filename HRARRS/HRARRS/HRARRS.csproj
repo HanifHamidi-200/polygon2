@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,6 +81,82 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\slot1\F A1.png" />
+    <None Include="bin\Debug\slot1\F A2.png" />
+    <None Include="bin\Debug\slot1\F A3.png" />
+    <None Include="bin\Debug\slot1\F A4.png" />
+    <None Include="bin\Debug\slot1\F B1.png" />
+    <None Include="bin\Debug\slot1\F B2.png" />
+    <None Include="bin\Debug\slot1\F B3.png" />
+    <None Include="bin\Debug\slot1\F B4.png" />
+    <None Include="bin\Debug\slot1\F C1.png" />
+    <None Include="bin\Debug\slot1\F C2.png" />
+    <None Include="bin\Debug\slot1\F C3.png" />
+    <None Include="bin\Debug\slot1\F C4.png" />
+    <None Include="bin\Debug\slot1\F D1.png" />
+    <None Include="bin\Debug\slot1\F D2.png" />
+    <None Include="bin\Debug\slot1\F D3.png" />
+    <None Include="bin\Debug\slot1\F D4.png" />
+    <None Include="bin\Debug\slot1\F holehere.png" />
+    <None Include="bin\Debug\slot1\F NullGate.png" />
+    <None Include="bin\Debug\slot1\F specialsquarefound.png" />
+    <None Include="bin\Debug\slot2\F A1.png" />
+    <None Include="bin\Debug\slot2\F A2.png" />
+    <None Include="bin\Debug\slot2\F A3.png" />
+    <None Include="bin\Debug\slot2\F A4.png" />
+    <None Include="bin\Debug\slot2\F B1.png" />
+    <None Include="bin\Debug\slot2\F B2.png" />
+    <None Include="bin\Debug\slot2\F B3.png" />
+    <None Include="bin\Debug\slot2\F B4.png" />
+    <None Include="bin\Debug\slot2\F C1.png" />
+    <None Include="bin\Debug\slot2\F C2.png" />
+    <None Include="bin\Debug\slot2\F C3.png" />
+    <None Include="bin\Debug\slot2\F C4.png" />
+    <None Include="bin\Debug\slot2\F D1.png" />
+    <None Include="bin\Debug\slot2\F D2.png" />
+    <None Include="bin\Debug\slot2\F D3.png" />
+    <None Include="bin\Debug\slot2\F D4.png" />
+    <None Include="bin\Debug\slot2\F holehere.png" />
+    <None Include="bin\Debug\slot2\F NullGate.png" />
+    <None Include="bin\Debug\slot2\F specialsquarefound.png" />
+    <None Include="bin\Debug\slot3\F A1.png" />
+    <None Include="bin\Debug\slot3\F A2.png" />
+    <None Include="bin\Debug\slot3\F A3.png" />
+    <None Include="bin\Debug\slot3\F A4.png" />
+    <None Include="bin\Debug\slot3\F B1.png" />
+    <None Include="bin\Debug\slot3\F B2.png" />
+    <None Include="bin\Debug\slot3\F B3.png" />
+    <None Include="bin\Debug\slot3\F B4.png" />
+    <None Include="bin\Debug\slot3\F C1.png" />
+    <None Include="bin\Debug\slot3\F C2.png" />
+    <None Include="bin\Debug\slot3\F C3.png" />
+    <None Include="bin\Debug\slot3\F C4.png" />
+    <None Include="bin\Debug\slot3\F D1.png" />
+    <None Include="bin\Debug\slot3\F D2.png" />
+    <None Include="bin\Debug\slot3\F D3.png" />
+    <None Include="bin\Debug\slot3\F D4.png" />
+    <None Include="bin\Debug\slot3\F holehere.png" />
+    <None Include="bin\Debug\slot3\F NullGate.png" />
+    <None Include="bin\Debug\slot3\F specialsquarefound.png" />
+    <None Include="bin\Debug\slot4\F A1.png" />
+    <None Include="bin\Debug\slot4\F A2.png" />
+    <None Include="bin\Debug\slot4\F A3.png" />
+    <None Include="bin\Debug\slot4\F A4.png" />
+    <None Include="bin\Debug\slot4\F B1.png" />
+    <None Include="bin\Debug\slot4\F B2.png" />
+    <None Include="bin\Debug\slot4\F B3.png" />
+    <None Include="bin\Debug\slot4\F B4.png" />
+    <None Include="bin\Debug\slot4\F C1.png" />
+    <None Include="bin\Debug\slot4\F C2.png" />
+    <None Include="bin\Debug\slot4\F C3.png" />
+    <None Include="bin\Debug\slot4\F C4.png" />
+    <None Include="bin\Debug\slot4\F D1.png" />
+    <None Include="bin\Debug\slot4\F D2.png" />
+    <None Include="bin\Debug\slot4\F D3.png" />
+    <None Include="bin\Debug\slot4\F D4.png" />
+    <None Include="bin\Debug\slot4\F holehere.png" />
+    <None Include="bin\Debug\slot4\F NullGate.png" />
+    <None Include="bin\Debug\slot4\F specialsquarefound.png" />
     <Content Include="pics\F BeakerQualityDesign.png" />
     <Content Include="pics\F CapsuleMakers.png" />
     <Content Include="pics\F Herarrsid2.0.png" />
