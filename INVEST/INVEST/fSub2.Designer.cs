@@ -58,6 +58,27 @@
             this.txtData = new System.Windows.Forms.TextBox();
             this.lblData = new System.Windows.Forms.Label();
             this.btnData = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lbl11 = new System.Windows.Forms.Label();
+            this.lbl21 = new System.Windows.Forms.Label();
+            this.lbl31 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.lbl12 = new System.Windows.Forms.Label();
+            this.lbl22 = new System.Windows.Forms.Label();
+            this.lbl32 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.lbl13 = new System.Windows.Forms.Label();
+            this.lbl23 = new System.Windows.Forms.Label();
+            this.lbl33 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.lbl14 = new System.Windows.Forms.Label();
+            this.lbl24 = new System.Windows.Forms.Label();
+            this.lbl34 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic44)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic34)).BeginInit();
@@ -75,6 +96,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic31)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic11)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -84,7 +107,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.30303F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.69697F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 85F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 92F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 93F));
             this.tableLayoutPanel1.Controls.Add(this.pic44, 3, 3);
             this.tableLayoutPanel1.Controls.Add(this.pic34, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.pic24, 1, 3);
@@ -114,7 +137,7 @@
             // pic44
             // 
             this.pic44.Image = ((System.Drawing.Image)(resources.GetObject("pic44.Image")));
-            this.pic44.Location = new System.Drawing.Point(252, 208);
+            this.pic44.Location = new System.Drawing.Point(251, 208);
             this.pic44.Name = "pic44";
             this.pic44.Size = new System.Drawing.Size(62, 50);
             this.pic44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -125,7 +148,7 @@
             // pic34
             // 
             this.pic34.Image = ((System.Drawing.Image)(resources.GetObject("pic34.Image")));
-            this.pic34.Location = new System.Drawing.Point(167, 208);
+            this.pic34.Location = new System.Drawing.Point(166, 208);
             this.pic34.Name = "pic34";
             this.pic34.Size = new System.Drawing.Size(62, 50);
             this.pic34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -158,7 +181,7 @@
             // pic43
             // 
             this.pic43.Image = ((System.Drawing.Image)(resources.GetObject("pic43.Image")));
-            this.pic43.Location = new System.Drawing.Point(252, 136);
+            this.pic43.Location = new System.Drawing.Point(251, 136);
             this.pic43.Name = "pic43";
             this.pic43.Size = new System.Drawing.Size(62, 50);
             this.pic43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -169,7 +192,7 @@
             // pic33
             // 
             this.pic33.Image = ((System.Drawing.Image)(resources.GetObject("pic33.Image")));
-            this.pic33.Location = new System.Drawing.Point(167, 136);
+            this.pic33.Location = new System.Drawing.Point(166, 136);
             this.pic33.Name = "pic33";
             this.pic33.Size = new System.Drawing.Size(62, 50);
             this.pic33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -202,7 +225,7 @@
             // pic42
             // 
             this.pic42.Image = ((System.Drawing.Image)(resources.GetObject("pic42.Image")));
-            this.pic42.Location = new System.Drawing.Point(252, 70);
+            this.pic42.Location = new System.Drawing.Point(251, 70);
             this.pic42.Name = "pic42";
             this.pic42.Size = new System.Drawing.Size(62, 50);
             this.pic42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -213,7 +236,7 @@
             // pic32
             // 
             this.pic32.Image = ((System.Drawing.Image)(resources.GetObject("pic32.Image")));
-            this.pic32.Location = new System.Drawing.Point(167, 70);
+            this.pic32.Location = new System.Drawing.Point(166, 70);
             this.pic32.Name = "pic32";
             this.pic32.Size = new System.Drawing.Size(62, 50);
             this.pic32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -246,7 +269,7 @@
             // pic41
             // 
             this.pic41.Image = ((System.Drawing.Image)(resources.GetObject("pic41.Image")));
-            this.pic41.Location = new System.Drawing.Point(252, 3);
+            this.pic41.Location = new System.Drawing.Point(251, 3);
             this.pic41.Name = "pic41";
             this.pic41.Size = new System.Drawing.Size(62, 50);
             this.pic41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -257,7 +280,7 @@
             // pic31
             // 
             this.pic31.Image = ((System.Drawing.Image)(resources.GetObject("pic31.Image")));
-            this.pic31.Location = new System.Drawing.Point(167, 3);
+            this.pic31.Location = new System.Drawing.Point(166, 3);
             this.pic31.Name = "pic31";
             this.pic31.Size = new System.Drawing.Size(62, 50);
             this.pic31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -407,11 +430,270 @@
             this.btnData.UseVisualStyleBackColor = false;
             this.btnData.Click += new System.EventHandler(this.btnData_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.groupBox1.Controls.Add(this.tableLayoutPanel2);
+            this.groupBox1.Location = new System.Drawing.Point(598, 130);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(185, 307);
+            this.groupBox1.TabIndex = 15;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Variables";
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.tableLayoutPanel2.ColumnCount = 4;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 31F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.tableLayoutPanel2.Controls.Add(this.label18, 0, 4);
+            this.tableLayoutPanel2.Controls.Add(this.lbl14, 1, 4);
+            this.tableLayoutPanel2.Controls.Add(this.lbl24, 2, 4);
+            this.tableLayoutPanel2.Controls.Add(this.lbl34, 3, 4);
+            this.tableLayoutPanel2.Controls.Add(this.label14, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.lbl13, 1, 3);
+            this.tableLayoutPanel2.Controls.Add(this.lbl23, 2, 3);
+            this.tableLayoutPanel2.Controls.Add(this.lbl33, 3, 3);
+            this.tableLayoutPanel2.Controls.Add(this.label10, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.lbl12, 1, 2);
+            this.tableLayoutPanel2.Controls.Add(this.lbl22, 2, 2);
+            this.tableLayoutPanel2.Controls.Add(this.lbl32, 3, 2);
+            this.tableLayoutPanel2.Controls.Add(this.label6, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.lbl11, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.lbl21, 2, 1);
+            this.tableLayoutPanel2.Controls.Add(this.lbl31, 3, 1);
+            this.tableLayoutPanel2.Controls.Add(this.label5, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.label4, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.label3, 1, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(19, 31);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 5;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 43F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 49F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(132, 210);
+            this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Yellow;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label3.Location = new System.Drawing.Point(37, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(15, 15);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "1";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Yellow;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Location = new System.Drawing.Point(77, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(15, 15);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "2";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Yellow;
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label5.Location = new System.Drawing.Point(108, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(15, 15);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "3";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Yellow;
+            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label6.Location = new System.Drawing.Point(3, 36);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(15, 15);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "1";
+            // 
+            // lbl11
+            // 
+            this.lbl11.AutoSize = true;
+            this.lbl11.BackColor = System.Drawing.Color.Lime;
+            this.lbl11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl11.Location = new System.Drawing.Point(37, 36);
+            this.lbl11.Name = "lbl11";
+            this.lbl11.Size = new System.Drawing.Size(15, 15);
+            this.lbl11.TabIndex = 6;
+            this.lbl11.Text = "1";
+            // 
+            // lbl21
+            // 
+            this.lbl21.AutoSize = true;
+            this.lbl21.BackColor = System.Drawing.Color.Lime;
+            this.lbl21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl21.Location = new System.Drawing.Point(77, 36);
+            this.lbl21.Name = "lbl21";
+            this.lbl21.Size = new System.Drawing.Size(15, 15);
+            this.lbl21.TabIndex = 5;
+            this.lbl21.Text = "1";
+            // 
+            // lbl31
+            // 
+            this.lbl31.AutoSize = true;
+            this.lbl31.BackColor = System.Drawing.Color.Lime;
+            this.lbl31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl31.Location = new System.Drawing.Point(108, 36);
+            this.lbl31.Name = "lbl31";
+            this.lbl31.Size = new System.Drawing.Size(15, 15);
+            this.lbl31.TabIndex = 4;
+            this.lbl31.Text = "1";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Yellow;
+            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label10.Location = new System.Drawing.Point(3, 79);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(15, 15);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "2";
+            // 
+            // lbl12
+            // 
+            this.lbl12.AutoSize = true;
+            this.lbl12.BackColor = System.Drawing.Color.Lime;
+            this.lbl12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl12.Location = new System.Drawing.Point(37, 79);
+            this.lbl12.Name = "lbl12";
+            this.lbl12.Size = new System.Drawing.Size(15, 15);
+            this.lbl12.TabIndex = 10;
+            this.lbl12.Text = "1";
+            // 
+            // lbl22
+            // 
+            this.lbl22.AutoSize = true;
+            this.lbl22.BackColor = System.Drawing.Color.Lime;
+            this.lbl22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl22.Location = new System.Drawing.Point(77, 79);
+            this.lbl22.Name = "lbl22";
+            this.lbl22.Size = new System.Drawing.Size(15, 15);
+            this.lbl22.TabIndex = 9;
+            this.lbl22.Text = "1";
+            // 
+            // lbl32
+            // 
+            this.lbl32.AutoSize = true;
+            this.lbl32.BackColor = System.Drawing.Color.Lime;
+            this.lbl32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl32.Location = new System.Drawing.Point(108, 79);
+            this.lbl32.Name = "lbl32";
+            this.lbl32.Size = new System.Drawing.Size(15, 15);
+            this.lbl32.TabIndex = 8;
+            this.lbl32.Text = "1";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Yellow;
+            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label14.Location = new System.Drawing.Point(3, 124);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(15, 15);
+            this.label14.TabIndex = 15;
+            this.label14.Text = "3";
+            // 
+            // lbl13
+            // 
+            this.lbl13.AutoSize = true;
+            this.lbl13.BackColor = System.Drawing.Color.Lime;
+            this.lbl13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl13.Location = new System.Drawing.Point(37, 124);
+            this.lbl13.Name = "lbl13";
+            this.lbl13.Size = new System.Drawing.Size(15, 15);
+            this.lbl13.TabIndex = 14;
+            this.lbl13.Text = "1";
+            // 
+            // lbl23
+            // 
+            this.lbl23.AutoSize = true;
+            this.lbl23.BackColor = System.Drawing.Color.Lime;
+            this.lbl23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl23.Location = new System.Drawing.Point(77, 124);
+            this.lbl23.Name = "lbl23";
+            this.lbl23.Size = new System.Drawing.Size(15, 15);
+            this.lbl23.TabIndex = 13;
+            this.lbl23.Text = "1";
+            // 
+            // lbl33
+            // 
+            this.lbl33.AutoSize = true;
+            this.lbl33.BackColor = System.Drawing.Color.Lime;
+            this.lbl33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl33.Location = new System.Drawing.Point(108, 124);
+            this.lbl33.Name = "lbl33";
+            this.lbl33.Size = new System.Drawing.Size(15, 15);
+            this.lbl33.TabIndex = 12;
+            this.lbl33.Text = "1";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Yellow;
+            this.label18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label18.Location = new System.Drawing.Point(3, 161);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(15, 15);
+            this.label18.TabIndex = 19;
+            this.label18.Text = "4";
+            // 
+            // lbl14
+            // 
+            this.lbl14.AutoSize = true;
+            this.lbl14.BackColor = System.Drawing.Color.Lime;
+            this.lbl14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl14.Location = new System.Drawing.Point(37, 161);
+            this.lbl14.Name = "lbl14";
+            this.lbl14.Size = new System.Drawing.Size(15, 15);
+            this.lbl14.TabIndex = 18;
+            this.lbl14.Text = "1";
+            // 
+            // lbl24
+            // 
+            this.lbl24.AutoSize = true;
+            this.lbl24.BackColor = System.Drawing.Color.Lime;
+            this.lbl24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl24.Location = new System.Drawing.Point(77, 161);
+            this.lbl24.Name = "lbl24";
+            this.lbl24.Size = new System.Drawing.Size(15, 15);
+            this.lbl24.TabIndex = 17;
+            this.lbl24.Text = "1";
+            // 
+            // lbl34
+            // 
+            this.lbl34.AutoSize = true;
+            this.lbl34.BackColor = System.Drawing.Color.Lime;
+            this.lbl34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl34.Location = new System.Drawing.Point(108, 161);
+            this.lbl34.Name = "lbl34";
+            this.lbl34.Size = new System.Drawing.Size(15, 15);
+            this.lbl34.TabIndex = 16;
+            this.lbl34.Text = "1";
+            // 
             // fSub2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(611, 507);
+            this.ClientSize = new System.Drawing.Size(837, 507);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnData);
             this.Controls.Add(this.txtData);
             this.Controls.Add(this.lblData);
@@ -445,6 +727,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic31)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic11)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -481,5 +766,26 @@
         private System.Windows.Forms.TextBox txtData;
         private System.Windows.Forms.Label lblData;
         private System.Windows.Forms.Button btnData;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label lbl14;
+        private System.Windows.Forms.Label lbl24;
+        private System.Windows.Forms.Label lbl34;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lbl13;
+        private System.Windows.Forms.Label lbl23;
+        private System.Windows.Forms.Label lbl33;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lbl12;
+        private System.Windows.Forms.Label lbl22;
+        private System.Windows.Forms.Label lbl32;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lbl11;
+        private System.Windows.Forms.Label lbl21;
+        private System.Windows.Forms.Label lbl31;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
     }
 }

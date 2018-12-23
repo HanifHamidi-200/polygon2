@@ -21,6 +21,9 @@ namespace INVEST
         private List<int> _holdings2 = new List<int> { 0, 0, 0, 0 };
         private List<int> _holdings3 = new List<int> { 0, 0, 0, 0 };
         private List<int> _holdings4 = new List<int> { 0, 0, 0, 0 };
+        private List<String> _Variables1 = new List<String> { null, null, null, null };
+        private List<String> _Variables2 = new List<String> { null, null, null, null };
+        private List<String> _Variables3 = new List<String> { null, null, null, null };
         private int mnCol, mnRow;
 
         private int fAmount(int nCol,int nRow)
@@ -151,10 +154,27 @@ namespace INVEST
                 _holdings4[i - 1] = rnd1.Next(200, 801);
             }
 
+            for(int i = 1; i <= 4; i++)
+            {
+                _Variables1[i - 1] = fVariable();
+                _Variables2[i - 1] = fVariable();
+                _Variables3[i - 1] = fVariable();
+            }
+
             fUpdateDisplay();
             fUpdateList();
+            fUpdateVariable();
             fClick(1, 1);
          }
+
+        private String fVariable()
+        {
+            Random rnd1 = new Random();
+            String sLetter = Convert.ToString((char)(rnd1.Next(1, 27) + 64));
+            int nNumber = rnd1.Next(1, 11);
+
+            return sLetter + Convert.ToString(nNumber);
+        }
 
         private void fPeek(int nValue, int nRotate, ref PictureBox _pic2)
         {
@@ -306,7 +326,26 @@ namespace INVEST
             fPeek(nType, nRotate, ref _pic);
             pic44.Image = _pic.Image;
         }
-            public fSub2()
+
+        private void fUpdateVariable()
+        {
+            lbl11.Text = _Variables1[0];
+            lbl12.Text = _Variables1[1];
+            lbl13.Text = _Variables1[2];
+            lbl14.Text = _Variables1[3];
+
+            lbl21.Text = _Variables2[0];
+            lbl22.Text = _Variables2[1];
+            lbl23.Text = _Variables2[2];
+            lbl24.Text = _Variables2[3];
+
+            lbl31.Text = _Variables3[0];
+            lbl32.Text = _Variables3[1];
+            lbl33.Text = _Variables3[2];
+            lbl34.Text = _Variables3[3];
+        }
+
+        public fSub2()
         {
             InitializeComponent();
         }
