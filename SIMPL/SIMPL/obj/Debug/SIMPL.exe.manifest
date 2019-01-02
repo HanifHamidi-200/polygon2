@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SIMPL.exe" size="315872">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SIMPL.exe" size="376800">
       <assemblyIdentity name="SIMPL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>k0D5KLsoPJxpsq+MMyVWx8Nza57G4qIeCZzgk9ChN4Y=</dsig:DigestValue>
+        <dsig:DigestValue>TWJ6AMPrwGN3P69RTspFoqpztorV0OsqHfiac6NXNyk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -645,6 +645,51 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>YztYKucb4FhCDm4fnUeaD8ZFukrfWiRbdzVZM99ngD8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons3\F back_highlighted.png" size="387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dz/LSjuLIwFZZmFNFYfPfaNSr3WSDkaMQL3l29egeZI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons3\F back_normal.png" size="366">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DzracdEaIEvkFQwBpmhoy7iE7zdm6Ra60z+tBIDExKQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons3\F NullGate.png" size="1422">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VGPfVpNeeNbaounH7yH8y4liVWByUGWYoZdedi71fu0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons3\F playerxo1.png" size="936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wRGTCQWLVYvS5903NdzdTWXJ+F92JtjaTr0+7Yk7Kyw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons3\F playerxo2.png" size="792">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wWI+9zFPb/7umKqCgIfLHIK5oahaWes5bhhE1pxhz3U=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SIMPL.exe.config" size="189">

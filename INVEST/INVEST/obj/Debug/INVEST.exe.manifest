@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="INVEST.exe" size="197088">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="INVEST.exe" size="198624">
       <assemblyIdentity name="INVEST" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Up3JXY8d23hsIwdOnsAHg+qA+uWjp/bZP0bfHpcTtEQ=</dsig:DigestValue>
+        <dsig:DigestValue>u12cJgS4NnfyrtyCOOtZ1SoID+H89FYUvCPXNryP+/w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

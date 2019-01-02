@@ -140,6 +140,9 @@
     <EmbeddedResource Include="fSub2.resx">
       <DependentUpon>fSub2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fSub3.resx">
+      <DependentUpon>fSub3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -197,6 +200,11 @@
     <Content Include="F player43.png" />
     <Content Include="F player44.png" />
     <Content Include="F snake.png" />
+    <Content Include="icons3\F back_highlighted.png" />
+    <Content Include="icons3\F back_normal.png" />
+    <Content Include="icons3\F NullGate.png" />
+    <Content Include="icons3\F playerxo1.png" />
+    <Content Include="icons3\F playerxo2.png" />
     <Content Include="icons\F back_blue.png" />
     <Content Include="icons\F back_red.png" />
     <Content Include="icons\F die1.png" />
