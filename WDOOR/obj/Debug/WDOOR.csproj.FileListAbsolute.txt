@@ -1,0 +1,13 @@
+C:\Users\hanif\source\CantelliPerelli\WDOOR\bin\Debug\WDOOR.exe.config
+C:\Users\hanif\source\CantelliPerelli\WDOOR\bin\Debug\WDOOR.exe
+C:\Users\hanif\source\CantelliPerelli\WDOOR\bin\Debug\WDOOR.pdb
+C:\Users\hanif\source\CantelliPerelli\WDOOR\obj\Debug\WDOOR.csprojAssemblyReference.cache
+C:\Users\hanif\source\CantelliPerelli\WDOOR\obj\Debug\WDOOR.Form1.resources
+C:\Users\hanif\source\CantelliPerelli\WDOOR\obj\Debug\WDOOR.fSub1.resources
+C:\Users\hanif\source\CantelliPerelli\WDOOR\obj\Debug\WDOOR.fSub2.resources
+C:\Users\hanif\source\CantelliPerelli\WDOOR\obj\Debug\WDOOR.fSub3.resources
+C:\Users\hanif\source\CantelliPerelli\WDOOR\obj\Debug\WDOOR.Properties.Resources.resources
+C:\Users\hanif\source\CantelliPerelli\WDOOR\obj\Debug\WDOOR.csproj.GenerateResource.cache
+C:\Users\hanif\source\CantelliPerelli\WDOOR\obj\Debug\WDOOR.csproj.CoreCompileInputs.cache
+C:\Users\hanif\source\CantelliPerelli\WDOOR\obj\Debug\WDOOR.exe
+C:\Users\hanif\source\CantelliPerelli\WDOOR\obj\Debug\WDOOR.pdb
