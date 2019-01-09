@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>F rocket.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,6 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fBlank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBlank.Designer.cs">
+      <DependentUpon>fBlank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fButtons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fButtons.Designer.cs">
+      <DependentUpon>fButtons.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +93,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fBlank.resx">
+      <DependentUpon>fBlank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fButtons.resx">
+      <DependentUpon>fButtons.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +135,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="F rocket.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
