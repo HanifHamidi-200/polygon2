@@ -95,6 +95,14 @@
             this.pic31 = new System.Windows.Forms.PictureBox();
             this.pic21 = new System.Windows.Forms.PictureBox();
             this.pic11 = new System.Windows.Forms.PictureBox();
+            this.btnNav11 = new System.Windows.Forms.Button();
+            this.btnNav24 = new System.Windows.Forms.Button();
+            this.btnNav21 = new System.Windows.Forms.Button();
+            this.btnNav12 = new System.Windows.Forms.Button();
+            this.btnNav14 = new System.Windows.Forms.Button();
+            this.btnNav22 = new System.Windows.Forms.Button();
+            this.btnNav23 = new System.Windows.Forms.Button();
+            this.btnNav13 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic88)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic78)).BeginInit();
@@ -171,6 +179,7 @@
             this.btnQNext.TabIndex = 12;
             this.btnQNext.Text = "&QNext";
             this.btnQNext.UseVisualStyleBackColor = false;
+            this.btnQNext.Click += new System.EventHandler(this.btnQNext_Click_1);
             // 
             // tableLayoutPanel1
             // 
@@ -902,15 +911,108 @@
             this.pic11.TabIndex = 0;
             this.pic11.TabStop = false;
             // 
+            // btnNav11
+            // 
+            this.btnNav11.BackColor = System.Drawing.Color.Yellow;
+            this.btnNav11.Location = new System.Drawing.Point(568, 140);
+            this.btnNav11.Name = "btnNav11";
+            this.btnNav11.Size = new System.Drawing.Size(40, 38);
+            this.btnNav11.TabIndex = 13;
+            this.btnNav11.Text = "^";
+            this.btnNav11.UseVisualStyleBackColor = false;
+            this.btnNav11.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnNav24
+            // 
+            this.btnNav24.BackColor = System.Drawing.Color.Yellow;
+            this.btnNav24.Location = new System.Drawing.Point(522, 140);
+            this.btnNav24.Name = "btnNav24";
+            this.btnNav24.Size = new System.Drawing.Size(40, 38);
+            this.btnNav24.TabIndex = 14;
+            this.btnNav24.Text = "^";
+            this.btnNav24.UseVisualStyleBackColor = false;
+            // 
+            // btnNav21
+            // 
+            this.btnNav21.BackColor = System.Drawing.Color.Yellow;
+            this.btnNav21.Location = new System.Drawing.Point(614, 140);
+            this.btnNav21.Name = "btnNav21";
+            this.btnNav21.Size = new System.Drawing.Size(40, 38);
+            this.btnNav21.TabIndex = 15;
+            this.btnNav21.Text = "^";
+            this.btnNav21.UseVisualStyleBackColor = false;
+            // 
+            // btnNav12
+            // 
+            this.btnNav12.BackColor = System.Drawing.Color.Yellow;
+            this.btnNav12.Location = new System.Drawing.Point(614, 184);
+            this.btnNav12.Name = "btnNav12";
+            this.btnNav12.Size = new System.Drawing.Size(40, 38);
+            this.btnNav12.TabIndex = 18;
+            this.btnNav12.Text = "^";
+            this.btnNav12.UseVisualStyleBackColor = false;
+            this.btnNav12.Click += new System.EventHandler(this.btnNav12_Click);
+            // 
+            // btnNav14
+            // 
+            this.btnNav14.BackColor = System.Drawing.Color.Yellow;
+            this.btnNav14.Location = new System.Drawing.Point(522, 184);
+            this.btnNav14.Name = "btnNav14";
+            this.btnNav14.Size = new System.Drawing.Size(40, 38);
+            this.btnNav14.TabIndex = 17;
+            this.btnNav14.Text = "^";
+            this.btnNav14.UseVisualStyleBackColor = false;
+            this.btnNav14.Click += new System.EventHandler(this.btnNav14_Click);
+            // 
+            // btnNav22
+            // 
+            this.btnNav22.BackColor = System.Drawing.Color.Yellow;
+            this.btnNav22.Location = new System.Drawing.Point(614, 228);
+            this.btnNav22.Name = "btnNav22";
+            this.btnNav22.Size = new System.Drawing.Size(40, 38);
+            this.btnNav22.TabIndex = 21;
+            this.btnNav22.Text = "^";
+            this.btnNav22.UseVisualStyleBackColor = false;
+            // 
+            // btnNav23
+            // 
+            this.btnNav23.BackColor = System.Drawing.Color.Yellow;
+            this.btnNav23.Location = new System.Drawing.Point(522, 228);
+            this.btnNav23.Name = "btnNav23";
+            this.btnNav23.Size = new System.Drawing.Size(40, 38);
+            this.btnNav23.TabIndex = 20;
+            this.btnNav23.Text = "^";
+            this.btnNav23.UseVisualStyleBackColor = false;
+            // 
+            // btnNav13
+            // 
+            this.btnNav13.BackColor = System.Drawing.Color.Yellow;
+            this.btnNav13.Location = new System.Drawing.Point(568, 228);
+            this.btnNav13.Name = "btnNav13";
+            this.btnNav13.Size = new System.Drawing.Size(40, 38);
+            this.btnNav13.TabIndex = 19;
+            this.btnNav13.Text = "^";
+            this.btnNav13.UseVisualStyleBackColor = false;
+            this.btnNav13.Click += new System.EventHandler(this.btnNav13_Click);
+            // 
             // fSub1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnNav22);
+            this.Controls.Add(this.btnNav23);
+            this.Controls.Add(this.btnNav13);
+            this.Controls.Add(this.btnNav12);
+            this.Controls.Add(this.btnNav14);
+            this.Controls.Add(this.btnNav21);
+            this.Controls.Add(this.btnNav24);
+            this.Controls.Add(this.btnNav11);
             this.Controls.Add(this.btnQNext);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "fSub1";
-            this.Text = "RDTS";
+            this.Text = "RDSQ";
+            this.Load += new System.EventHandler(this.fSub1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic88)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic78)).EndInit();
@@ -1048,5 +1150,13 @@
         private System.Windows.Forms.PictureBox pic31;
         private System.Windows.Forms.PictureBox pic21;
         private System.Windows.Forms.PictureBox pic11;
+        private System.Windows.Forms.Button btnNav11;
+        private System.Windows.Forms.Button btnNav24;
+        private System.Windows.Forms.Button btnNav21;
+        private System.Windows.Forms.Button btnNav12;
+        private System.Windows.Forms.Button btnNav14;
+        private System.Windows.Forms.Button btnNav22;
+        private System.Windows.Forms.Button btnNav23;
+        private System.Windows.Forms.Button btnNav13;
     }
 }

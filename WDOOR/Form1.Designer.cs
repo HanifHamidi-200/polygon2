@@ -46,7 +46,7 @@
             this.btnOpen1.Name = "btnOpen1";
             this.btnOpen1.Size = new System.Drawing.Size(169, 36);
             this.btnOpen1.TabIndex = 0;
-            this.btnOpen1.Text = "RDTS";
+            this.btnOpen1.Text = "RDSQ";
             this.btnOpen1.UseVisualStyleBackColor = false;
             this.btnOpen1.Click += new System.EventHandler(this.btnOpen1_Click);
             // 

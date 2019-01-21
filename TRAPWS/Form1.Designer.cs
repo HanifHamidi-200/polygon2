@@ -32,6 +32,7 @@
             this.btnOpen2 = new System.Windows.Forms.Button();
             this.btnOpen3 = new System.Windows.Forms.Button();
             this.btnOpen4 = new System.Windows.Forms.Button();
+            this.btnOpen5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOpen1
@@ -78,11 +79,23 @@
             this.btnOpen4.UseVisualStyleBackColor = false;
             this.btnOpen4.Click += new System.EventHandler(this.btnOpen4_Click);
             // 
+            // btnOpen5
+            // 
+            this.btnOpen5.BackColor = System.Drawing.Color.Yellow;
+            this.btnOpen5.Location = new System.Drawing.Point(27, 199);
+            this.btnOpen5.Name = "btnOpen5";
+            this.btnOpen5.Size = new System.Drawing.Size(258, 35);
+            this.btnOpen5.TabIndex = 4;
+            this.btnOpen5.Text = "TPLAN";
+            this.btnOpen5.UseVisualStyleBackColor = false;
+            this.btnOpen5.Click += new System.EventHandler(this.btnOpen5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(316, 274);
+            this.Controls.Add(this.btnOpen5);
             this.Controls.Add(this.btnOpen4);
             this.Controls.Add(this.btnOpen3);
             this.Controls.Add(this.btnOpen2);
@@ -100,6 +113,7 @@
         private System.Windows.Forms.Button btnOpen2;
         private System.Windows.Forms.Button btnOpen3;
         private System.Windows.Forms.Button btnOpen4;
+        private System.Windows.Forms.Button btnOpen5;
     }
 }
 

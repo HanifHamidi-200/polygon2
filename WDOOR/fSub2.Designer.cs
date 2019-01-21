@@ -171,6 +171,7 @@
             this.btnQNext.TabIndex = 12;
             this.btnQNext.Text = "&QNext";
             this.btnQNext.UseVisualStyleBackColor = false;
+            this.btnQNext.Click += new System.EventHandler(this.btnQNext_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -910,7 +911,8 @@
             this.Controls.Add(this.btnQNext);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "fSub2";
-            this.Text = "fSub2";
+            this.Text = "NORGT";
+            this.Load += new System.EventHandler(this.fSub2_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic88)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic78)).EndInit();

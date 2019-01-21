@@ -28,3 +28,4 @@ C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.exe
 C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.pdb
 C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.fBlank.resources
 C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.fButtons.resources
+C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.fSub5.resources

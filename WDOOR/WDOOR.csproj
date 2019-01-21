@@ -133,6 +133,8 @@
     <Content Include="icons2\F matrix.png" />
     <Content Include="icons2\F memorisedsquare.png" />
     <Content Include="icons2\F NullGate.png" />
+    <Content Include="icons2\F YOU.png" />
+    <Content Include="icons3\F back1.png" />
     <Content Include="icons3\F exit.png" />
     <Content Include="icons3\F NullGate.png" />
     <Content Include="icons3\F treasurecoins.png" />
