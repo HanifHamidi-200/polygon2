@@ -29,3 +29,7 @@ C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.pdb
 C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.fBlank.resources
 C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.fButtons.resources
 C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.fSub5.resources
+C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.fBSub1.resources
+C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.fBSub2.resources
+C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.fBSub3.resources
+C:\Users\hanif\Desktop\polygon2\TRAPWS\obj\Debug\TRAPWS.fBSub4.resources

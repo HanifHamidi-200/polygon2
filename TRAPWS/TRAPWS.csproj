@@ -55,6 +55,30 @@
     <Compile Include="fBlank.Designer.cs">
       <DependentUpon>fBlank.cs</DependentUpon>
     </Compile>
+    <Compile Include="fBSub1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBSub1.Designer.cs">
+      <DependentUpon>fBSub1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBSub2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBSub2.Designer.cs">
+      <DependentUpon>fBSub2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBSub3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBSub3.Designer.cs">
+      <DependentUpon>fBSub3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBSub4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBSub4.Designer.cs">
+      <DependentUpon>fBSub4.cs</DependentUpon>
+    </Compile>
     <Compile Include="fButtons.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +125,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="fBlank.resx">
       <DependentUpon>fBlank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBSub1.resx">
+      <DependentUpon>fBSub1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBSub2.resx">
+      <DependentUpon>fBSub2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBSub3.resx">
+      <DependentUpon>fBSub3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBSub4.resx">
+      <DependentUpon>fBSub4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fButtons.resx">
       <DependentUpon>fButtons.cs</DependentUpon>

@@ -19,6 +19,28 @@ namespace TRAPWS
 
         private void button1_Click(object sender, EventArgs e)
         {
+            fBSub1 _dlg = new fBSub1();
+            _dlg.ShowDialog();
+        }
+
+        private void Btn2_Click(object sender, EventArgs e)
+        {
+            fBSub2 _dlg = new fBSub2();
+            _dlg.ShowDialog();
+
+        }
+
+        private void Btn3_Click(object sender, EventArgs e)
+        {
+            fBSub3 _dlg = new fBSub3();
+            _dlg.ShowDialog();
+
+        }
+
+        private void Btn4_Click(object sender, EventArgs e)
+        {
+            fBSub4 _dlg = new fBSub4();
+            _dlg.ShowDialog();
 
         }
     }
