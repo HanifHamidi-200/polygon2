@@ -33,6 +33,7 @@
             this.btnOpen3 = new System.Windows.Forms.Button();
             this.btnOpen4 = new System.Windows.Forms.Button();
             this.btnOpen5 = new System.Windows.Forms.Button();
+            this.btnOpen6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOpen1
@@ -90,11 +91,23 @@
             this.btnOpen5.UseVisualStyleBackColor = false;
             this.btnOpen5.Click += new System.EventHandler(this.btnOpen5_Click);
             // 
+            // btnOpen6
+            // 
+            this.btnOpen6.BackColor = System.Drawing.Color.Yellow;
+            this.btnOpen6.Location = new System.Drawing.Point(27, 240);
+            this.btnOpen6.Name = "btnOpen6";
+            this.btnOpen6.Size = new System.Drawing.Size(258, 35);
+            this.btnOpen6.TabIndex = 5;
+            this.btnOpen6.Text = "DQWALK";
+            this.btnOpen6.UseVisualStyleBackColor = false;
+            this.btnOpen6.Click += new System.EventHandler(this.BtnOpen6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(316, 274);
+            this.ClientSize = new System.Drawing.Size(316, 310);
+            this.Controls.Add(this.btnOpen6);
             this.Controls.Add(this.btnOpen5);
             this.Controls.Add(this.btnOpen4);
             this.Controls.Add(this.btnOpen3);
@@ -114,6 +127,7 @@
         private System.Windows.Forms.Button btnOpen3;
         private System.Windows.Forms.Button btnOpen4;
         private System.Windows.Forms.Button btnOpen5;
+        private System.Windows.Forms.Button btnOpen6;
     }
 }
 

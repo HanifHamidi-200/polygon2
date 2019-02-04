@@ -56,5 +56,12 @@ namespace TRAPWS
 
 
         }
+
+        private void BtnOpen6_Click(object sender, EventArgs e)
+        {
+            fSub6 _dlg = new fSub6();
+            _dlg.ShowDialog();
+
+        }
     }
 }
