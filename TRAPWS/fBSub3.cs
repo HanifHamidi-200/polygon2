@@ -12,9 +12,40 @@ namespace TRAPWS
 {
     public partial class fBSub3 : Form
     {
+        private void fShow(int nMode)
+        {
+            fra1.Visible = false;
+            fra2.Visible = false;
+
+            if (nMode == 1)
+            {
+                fra1.Visible = true;
+            }
+            else
+            {
+                fra2.Visible = true;
+            }
+        }
         public fBSub3()
         {
             InitializeComponent();
+            fra2.Left = fra1.Left;
+            fra2.Top = fra1.Top;
+        }
+
+        private void FBSub3_Load(object sender, EventArgs e)
+        {
+            fShow(1);
+        }
+
+        private void Btn1_Click(object sender, EventArgs e)
+        {
+            fShow(1);
+        }
+
+        private void Btn2_Click(object sender, EventArgs e)
+        {
+            fShow(2);
         }
     }
 }

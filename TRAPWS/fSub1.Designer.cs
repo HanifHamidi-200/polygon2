@@ -50,6 +50,10 @@
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.picConstruction1 = new System.Windows.Forms.PictureBox();
             this.picConstruction2 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCar2)).BeginInit();
@@ -71,7 +75,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Yellow;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Location = new System.Drawing.Point(49, 27);
+            this.label4.Location = new System.Drawing.Point(63, 27);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(25, 15);
             this.label4.TabIndex = 3;
@@ -82,7 +86,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Yellow;
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label6.Location = new System.Drawing.Point(7, 309);
+            this.label6.Location = new System.Drawing.Point(20, 309);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(68, 15);
             this.label6.TabIndex = 5;
@@ -93,7 +97,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Yellow;
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label8.Location = new System.Drawing.Point(30, 450);
+            this.label8.Location = new System.Drawing.Point(44, 464);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(44, 15);
             this.label8.TabIndex = 7;
@@ -104,7 +108,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Yellow;
             this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label9.Location = new System.Drawing.Point(12, 168);
+            this.label9.Location = new System.Drawing.Point(34, 168);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(54, 15);
             this.label9.TabIndex = 8;
@@ -113,7 +117,7 @@
             // button11
             // 
             this.button11.BackColor = System.Drawing.Color.Lime;
-            this.button11.Location = new System.Drawing.Point(754, 27);
+            this.button11.Location = new System.Drawing.Point(771, 27);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(212, 33);
             this.button11.TabIndex = 19;
@@ -123,7 +127,7 @@
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.Lime;
-            this.button12.Location = new System.Drawing.Point(754, 66);
+            this.button12.Location = new System.Drawing.Point(771, 66);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(212, 33);
             this.button12.TabIndex = 20;
@@ -133,7 +137,7 @@
             // button13
             // 
             this.button13.BackColor = System.Drawing.Color.Lime;
-            this.button13.Location = new System.Drawing.Point(754, 105);
+            this.button13.Location = new System.Drawing.Point(771, 105);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(212, 33);
             this.button13.TabIndex = 21;
@@ -146,7 +150,7 @@
             this.flowLayoutPanel1.Controls.Add(this.picCar1);
             this.flowLayoutPanel1.Controls.Add(this.picCar2);
             this.flowLayoutPanel1.Controls.Add(this.picCar3);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(81, 24);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(104, 27);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(644, 135);
             this.flowLayoutPanel1.TabIndex = 22;
@@ -189,7 +193,7 @@
             this.flowLayoutPanel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.flowLayoutPanel2.Controls.Add(this.picComputer1);
             this.flowLayoutPanel2.Controls.Add(this.picComputer2);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(81, 165);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(104, 168);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(644, 135);
             this.flowLayoutPanel2.TabIndex = 23;
@@ -232,7 +236,7 @@
             this.flowLayoutPanel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.flowLayoutPanel3.Controls.Add(this.picGarden1);
             this.flowLayoutPanel3.Controls.Add(this.picGarden2);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(81, 447);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(104, 450);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(644, 135);
             this.flowLayoutPanel3.TabIndex = 25;
@@ -265,7 +269,7 @@
             this.flowLayoutPanel4.Controls.Add(this.picConstruction1);
             this.flowLayoutPanel4.Controls.Add(this.picConstruction2);
             this.flowLayoutPanel4.Controls.Add(this.picConstruction3);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(81, 306);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(104, 309);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Size = new System.Drawing.Size(644, 135);
             this.flowLayoutPanel4.TabIndex = 24;
@@ -292,11 +296,59 @@
             this.picConstruction2.TabStop = false;
             this.picConstruction2.Click += new System.EventHandler(this.picConstruction2_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Yellow;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Location = new System.Drawing.Point(43, 45);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(45, 15);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "[4][6][5]";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Yellow;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label2.Location = new System.Drawing.Point(49, 193);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(39, 15);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "[13][6]";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Yellow;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label3.Location = new System.Drawing.Point(43, 337);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(45, 15);
+            this.label3.TabIndex = 28;
+            this.label3.Text = "[5][6][8]";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Yellow;
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label5.Location = new System.Drawing.Point(55, 490);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(33, 15);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "[7][7]";
+            // 
             // fSub1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(983, 592);
+            this.ClientSize = new System.Drawing.Size(995, 592);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.flowLayoutPanel4);
             this.Controls.Add(this.flowLayoutPanel2);
@@ -351,5 +403,9 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
         private System.Windows.Forms.PictureBox picConstruction1;
         private System.Windows.Forms.PictureBox picConstruction2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label5;
     }
 }
