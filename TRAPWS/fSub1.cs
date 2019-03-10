@@ -128,5 +128,39 @@ namespace TRAPWS
             _dlg.ShowDialog();
 
         }
+
+        private void Button11_Click(object sender, EventArgs e)
+        {
+            fCSub1 _dlg = new fCSub1();
+            _dlg.ShowDialog();
+        }
+
+        private void Button12_Click(object sender, EventArgs e)
+        {
+            fCSub2 _dlg = new fCSub2();
+            _dlg.ShowDialog();
+
+        }
+
+        private void Button13_Click(object sender, EventArgs e)
+        {
+            fCSub3 _dlg = new fCSub3();
+            _dlg.ShowDialog();
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            fCSub4 _dlg = new fCSub4();
+            _dlg.ShowDialog();
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            fCSub5 _dlg = new fCSub5();
+            _dlg.ShowDialog();
+
+        }
     }
 }

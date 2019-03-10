@@ -85,6 +85,36 @@
     <Compile Include="fButtons.Designer.cs">
       <DependentUpon>fButtons.cs</DependentUpon>
     </Compile>
+    <Compile Include="fCSub1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCSub1.Designer.cs">
+      <DependentUpon>fCSub1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCSub2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCSub2.Designer.cs">
+      <DependentUpon>fCSub2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCSub3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCSub3.Designer.cs">
+      <DependentUpon>fCSub3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCSub4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCSub4.Designer.cs">
+      <DependentUpon>fCSub4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCSub5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCSub5.Designer.cs">
+      <DependentUpon>fCSub5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,11 +151,35 @@
     <Compile Include="fSub5.Designer.cs">
       <DependentUpon>fSub5.cs</DependentUpon>
     </Compile>
-    <Compile Include="fSub6.cs">
+    <Compile Include="fSub7.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fSub6.Designer.cs">
-      <DependentUpon>fSub6.cs</DependentUpon>
+    <Compile Include="fSub7.Designer.cs">
+      <DependentUpon>fSub7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fVSub1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fVSub1.Designer.cs">
+      <DependentUpon>fVSub1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fVSub2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fVSub2.Designer.cs">
+      <DependentUpon>fVSub2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fVSub3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fVSub3.Designer.cs">
+      <DependentUpon>fVSub3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fVSub4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fVSub4.Designer.cs">
+      <DependentUpon>fVSub4.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -147,6 +201,21 @@
     <EmbeddedResource Include="fButtons.resx">
       <DependentUpon>fButtons.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fCSub1.resx">
+      <DependentUpon>fCSub1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCSub2.resx">
+      <DependentUpon>fCSub2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCSub3.resx">
+      <DependentUpon>fCSub3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCSub4.resx">
+      <DependentUpon>fCSub4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCSub5.resx">
+      <DependentUpon>fCSub5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +233,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fSub5.resx">
       <DependentUpon>fSub5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSub7.resx">
+      <DependentUpon>fSub7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fVSub1.resx">
+      <DependentUpon>fVSub1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fVSub2.resx">
+      <DependentUpon>fVSub2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fVSub3.resx">
+      <DependentUpon>fVSub3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fVSub4.resx">
+      <DependentUpon>fVSub4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

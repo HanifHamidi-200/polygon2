@@ -59,7 +59,7 @@ namespace TRAPWS
 
         private void BtnOpen6_Click(object sender, EventArgs e)
         {
-            fSub6 _dlg = new fSub6();
+            fSub7 _dlg = new fSub7();
             _dlg.ShowDialog();
 
         }
