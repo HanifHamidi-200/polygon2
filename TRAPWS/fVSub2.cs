@@ -12,9 +12,8 @@ namespace TRAPWS
 {
     public partial class fVSub2 : Form
     {
-        private List<String> _columns = new List<String> { "BORLNDTranscription", "SYBASEHideout", "SYBASETowers", "VuexBotService", "VuexBusiness", "VuexCogslever", "VuexCommonData", "VuexCommonDisplay", "VuexCumnor", "VuexDynamo", "VuexEdith", "VuexFertile", "VuexKRDT", "VuexNotification", "VuexPresskit", "VuexSelence", "VuexSolo", "VuexTeams" };
-        private List<int> _count = new List<int> { 4, 4, 3, 3, 4, 2, 3, 4, 2, 4, 1, 2, 2, 6, 4, 5, 2, 3 };
-        private List<String> _col1 = new List<String> { "EntityFramework", "MicrosoftSecurityResponseCentre", "PowerShell", "Xamarin", null, null };
+        /*
+         private List<String> _col1 = new List<String> { "EntityFramework", "MicrosoftSecurityResponseCentre", "PowerShell", "Xamarin", null, null };
         private List<String> _col2 = new List<String> { "Exchange", "MicrosoftStream", "SystemCentre", "SystemCentreConfigurationManager", null, null };
         private List<String> _col3 = new List<String> { "Dynamics365", "F#", "MicrosoftWorkplaceAnalyticsAndMyanalytics", null, null, null };
         private List<String> _col4 = new List<String> { "C#", "MicrosoftQuantumDevelopment", "Office", null, null, null };
@@ -32,7 +31,30 @@ namespace TRAPWS
         private List<String> _col16 = new List<String> { "Azure", "BiztalkServer", "Kaizala", "PowerQuery", "SQLServer", null };
         private List<String> _col17 = new List<String> { "AzureIoTCentral", "OneDrive", null, null, null, null };
         private List<String> _col18 = new List<String> { ".NET", "HealthBot", "MicrosoftTeams", null, null, null };
+        private List<String> _columns = new List<String> { "BORLNDTranscription", "SYBASEHideout", "SYBASETowers", "VuexBotService", "VuexBusiness", "VuexCogslever", "VuexCommonData", "VuexCommonDisplay", "VuexCumnor", "VuexDynamo", "VuexEdith", "VuexFertile", "VuexKRDT", "VuexNotification", "VuexPresskit", "VuexSelence", "VuexSolo", "VuexTeams" };
+        private List<int> _count = new List<int> { 4, 4, 3, 3, 4, 2, 3, 4, 2, 4, 1, 2, 2, 6, 4, 5, 2, 3 };
+        */
         private List<String> _data = new List<string> { null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null };
+        private List<String> _columns = new List<String> { "VuexNotification", "VuexTeams", "SYBASEHideout", "VuexBusiness", "VuexCogslever", "VuexCumnor", "VuexDynamo", "VuexSelence", "VuexSolo", "BORLNDTransciption", "VuexBotService", "VuexCommonData", "VuexEdith", "VuexFertile", "VuexPresskit", "SYBASETowers", "VuexCommonDisplay", "VuexKRDT" };
+        private List<int> _count = new List<int> { 6, 3, 4, 4, 2, 2, 4, 5, 2, 4, 3, 3, 1, 2, 4, 3, 4, 2 };
+        private List<String> _col1 = new List<String> { "CognitiveToolkitCNTK", "InTune", "MicrosoftHPCPack2016", "PowerApps", "PowerBI", "VisualStudioIDE" };
+        private List<String> _col2 = new List<String> { ".NET", "HealthBot", "MicrosoftTeams", null, null, null };
+        private List<String> _col3 = new List<String> { "Exchange", "MicrosoftStream", "SystemCentre", "SystemCentreConfigurationManager", null, null };
+        private List<String> _col4 = new List<String> { "CortanaSkills", "EnterpriseMobility+Security", "SkypeForBusiness", "Windows", null, null };
+        private List<String> _col5 = new List<String> { "AzureBotService", "MicrosoftFlow", null, null, null, null };
+        private List<String> _col6 = new List<String> { "Virtualization", "Yammer", null, null, null, null };
+        private List<String> _col7 = new List<String> { "AzureDevOps", "InternetInformationServices", "MicrosoftMachineLearningServer", "Project", null, null };
+        private List<String> _col8 = new List<String> { "Azure", "BiztalkServer", "Kaizala", "PowerQuery", "SQLServer", null };
+        private List<String> _col9 = new List<String> { "AzureIoTCentral", "OneDrive", null, null, null, null };
+        private List<String> _col10 = new List<String> { "EntityFramework", "MicrosoftSecurityResponseCentre", "PowerShell", "Xamarin", null, null };
+        private List<String> _col11 = new List<String> { "C#", "MicrosoftQuantumDevelopment", "Office", null, null, null };
+        private List<String> _col12 = new List<String> { "FastTrackForMicrosoft365", "PlayReady", "VisualBasic", null, null, null };
+        private List<String> _col13 = new List<String> { "MicrosoftManagedDesktop", null, null, null, null, null };
+        private List<String> _col14 = new List<String> { "C++", "MicrosoftEducation", null, null, null, null };
+        private List<String> _col15 = new List<String> { "DashboardServices", "Microsoft365Business", "NuGet", "VisualStudio", null, null };
+        private List<String> _col16 = new List<String> { "Dynamics365", "F#", "MicrosoftWorkplaceAnalyticsAndMyanalytics", null, null, null };
+        private List<String> _col17 = new List<String> { "BingAds", "HealthVault", "Microsoft365Enterprise", "SharePoint", null, null };
+        private List<String> _col18 = new List<String> { "ASP.NET", "CommonDataService", null, null, null, null };
         private List<int> _value1 = new List<int> { 0, 0, 0, 0, 0, 0 };
         private List<int> _value2 = new List<int> { 0, 0, 0, 0, 0, 0 };
         private List<int> _value3 = new List<int> { 0, 0, 0, 0, 0, 0 };
@@ -176,13 +198,23 @@ namespace TRAPWS
         {
             tab1.Visible = false;
             tab2.Visible = false;
-            if (nMode == 1)
+            tab3.Visible = false;
+            tab4.Visible = false;
+
+            switch (nMode)
             {
-                tab1.Visible = true;
-            }
-            else
-            {
-                tab2.Visible = true;
+                case 1:
+                    tab1.Visible = true;
+                    break;
+                case 2:
+                    tab2.Visible = true;
+                    break;
+                case 3:
+                    tab3.Visible = true;
+                    break;
+                default:
+                    tab4.Visible = true;
+                    break;
             }
         }
         public fVSub2()
@@ -190,6 +222,10 @@ namespace TRAPWS
             InitializeComponent();
             tab2.Left = tab1.Left;
             tab2.Top = tab1.Top;
+            tab3.Left = tab1.Left;
+            tab3.Top = tab1.Top;
+            tab4.Left = tab1.Left;
+            tab4.Top = tab1.Top;
         }
 
         private void fVSub2_Load(object sender, EventArgs e)
@@ -346,6 +382,23 @@ namespace TRAPWS
 
         private void tab2_Paint(object sender, PaintEventArgs e)
         {
+
+        }
+
+        private void TableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void BtnPage3_Click(object sender, EventArgs e)
+        {
+            fShow(3);
+
+        }
+
+        private void BtnPage4_Click(object sender, EventArgs e)
+        {
+            fShow(4);
 
         }
     }
